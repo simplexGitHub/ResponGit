@@ -1,0 +1,97 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "setRequest",
+    "version": "1.0",
+    "description": "Set request for Alpha mission"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3102/"
+    }
+  ],
+  "paths": {
+    "/request": {
+      "post": {
+        "summary": "",
+        "operationId": "post-request",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "initiate request",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/request"
+              }
+            }
+          },
+          "description": "The request json"
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "request": {
+        "title": "request",
+        "type": "object",
+        "description": "The request for resource and mission",
+        "properties": {
+          "requestID": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "On Work",
+              "Route Attached",
+              "Done"
+            ]
+          },
+          "mission": {
+            "type": "string",
+            "enum": [
+              "POI",
+              "SCAN",
+              "AREA"
+            ]
+          },
+          "target": {
+            "type": "object",
+            "properties": {
+              "point": {
+                "type": "object",
+                "properties": {
+                  "lat": {
+                    "type": "number"
+                  },
+                  "lon": {
+                    "type": "number"
+                  },
+                  "alt": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "requestID",
+          "target"
+        ]
+      }
+    }
+  }
+}
