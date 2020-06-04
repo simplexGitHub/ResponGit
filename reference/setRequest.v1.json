@@ -7,11 +7,11 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3102/"
+      "url": "https://stoplight.io/p/mocks/13401/123079/request"
     }
   ],
   "paths": {
-    "/request": {
+    "request": {
       "post": {
         "summary": "",
         "operationId": "post-request",
@@ -38,7 +38,8 @@
           },
           "description": "The request json"
         }
-      }
+      },
+      "parameters": []
     }
   },
   "components": {
