@@ -1,0 +1,17 @@
+{
+  "title": "Gimbals",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "$ref": "../timestamp.v1.json"
+    },
+    "gimbals": {
+      "type": "array",
+      "description": "Gimbals telemetry. All gimbals telemetry data should be sent each message. The current message always overide the old messages",
+      "items": {
+        "$ref": "./Gimbal.v1.json"
+      }
+    }
+  },
+  "description": "Gimbals telemetry"
+}

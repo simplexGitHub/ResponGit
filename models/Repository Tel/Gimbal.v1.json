@@ -1,0 +1,89 @@
+{
+  "title": "Gimbal",
+  "type": "object",
+  "description": "The gimbal telemetry",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The gimbal unique id"
+    },
+    "droneId": {
+      "type": "string",
+      "description": "Drone ID the gimbal is physically connected to"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "on",
+        "off"
+      ],
+      "description": "Is the gimbal off or on"
+    },
+    "cameraMode": {
+      "type": "string",
+      "enum": [
+        "day",
+        "night"
+      ],
+      "description": "Day or Night camera mode"
+    },
+    "AIModeOn": {
+      "type": "boolean",
+      "description": "Is AI mode on ?"
+    },
+    "yawOrientation": {
+      "type": "string",
+      "enum": [
+        "Body",
+        "North"
+      ],
+      "description": "Is the gimbal yaw angle related to true North to drone body"
+    },
+    "pitch": {
+      "type": "number",
+      "description": "Gimbal pitch"
+    },
+    "yaw": {
+      "type": "number",
+      "description": "The gimbal yaw"
+    },
+    "roll": {
+      "type": "number",
+      "description": "The gimbal roll angle"
+    },
+    "trackingMode": {
+      "type": "string",
+      "description": "The tracking mode of the gimbal, free does no track, entity follows a defined entity, FrameEntity follows the track id position onof the image received by the sensor related to the video frame",
+      "enum": [
+        "Free",
+        "Entity",
+        "frameEntity"
+      ]
+    },
+    "trackedEntity": {
+      "type": "string",
+      "description": "If trackingMode = Entity : The entity id that is tracked by the sensor"
+    },
+    "trackedVideoEntityId": {
+      "type": "string",
+      "description": "If trackingMode= FrameEntity : The entity id of the track sent as meta data related to frame"
+    },
+    "cameraLookAtPoint": {
+      "$ref": "../GeoPoint.v1.json"
+    },
+    "videoURL": {
+      "type": "string",
+      "description": "The URL of the rtsp stream from the sensor"
+    }
+  },
+  "required": [
+    "id",
+    "droneId",
+    "status",
+    "AIModeOn",
+    "yawOrientation",
+    "pitch",
+    "yaw",
+    "roll"
+  ]
+}
