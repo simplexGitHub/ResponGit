@@ -23,9 +23,7 @@
       "$ref": "./GeoPoint.v1.json"
     },
     "lastUpdated": {
-      "type": "number",
-      "format": "double",
-      "description": "timestamp mili sec from 1970"
+      "$ref": "../timestamp.v1.json"
     },
     "online": {
       "type": "boolean",
@@ -43,6 +41,8 @@
     "id",
     "callSign",
     "type",
-    "online"
+    "lastUpdated",
+    "online",
+    "status"
   ]
 }

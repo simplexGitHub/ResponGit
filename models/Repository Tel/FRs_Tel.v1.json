@@ -1,0 +1,19 @@
+{
+  "title": "FRs_Tel",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "timestamp": {
+      "$ref": "../timestamp.v1.json"
+    },
+    "FRs": {
+      "type": "array",
+      "items": {
+        "$ref": "./FR_Tel.v1.json"
+      }
+    }
+  },
+  "required": [
+    "timestamp"
+  ]
+}

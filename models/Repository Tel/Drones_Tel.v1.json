@@ -1,0 +1,17 @@
+{
+  "title": "Drones_Tel",
+  "type": "object",
+  "description": "The list of drones telemetry",
+  "properties": {
+    "timestamp": {
+      "$ref": "../timestamp.v1.json"
+    },
+    "drones": {
+      "type": "array",
+      "description": "All drones telemetry should be sent each time\nThe new message always overide the old ones",
+      "items": {
+        "$ref": "./Drone_Tel.v1.json"
+      }
+    }
+  }
+}
