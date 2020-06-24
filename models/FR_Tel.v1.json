@@ -1,0 +1,48 @@
+{
+  "title": "FR_Tel",
+  "type": "object",
+  "description": "The FR telemetry data",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "callSign": {
+      "type": "string",
+      "description": "The FR name "
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "FireFighter",
+        "Police",
+        "Med"
+      ],
+      "example": "\"Police\""
+    },
+    "location": {
+      "$ref": "./GeoPoint.v1.json"
+    },
+    "lastUpdated": {
+      "type": "number",
+      "format": "double",
+      "description": "timestamp mili sec from 1970"
+    },
+    "online": {
+      "type": "boolean",
+      "description": "Is the FR online"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Busy",
+        "Available"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "callSign",
+    "type",
+    "online"
+  ]
+}
