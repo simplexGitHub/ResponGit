@@ -2,18 +2,19 @@
   "openapi": "3.0.0",
   "info": {
     "title": "updateObservationPointMission",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "Update Observation Point Mission Request in the Repository"
   },
   "servers": [
     {
-      "url": "http://localhost:3105"
+      "url": "http://localhost:3104"
     }
   ],
   "paths": {
     "/updateObservationPointMission": {
-      "put": {
+      "post": {
         "summary": "",
-        "operationId": "put-updateObservationPointMission",
+        "operationId": "post-updateObservationPointMission",
         "responses": {
           "200": {
             "description": "OK",
@@ -26,6 +27,7 @@
             }
           }
         },
+        "description": "Update a specific observation point request",
         "requestBody": {
           "content": {
             "application/json": {
@@ -33,7 +35,8 @@
                 "$ref": "../../../models/Repository Ent/repObservationMissionRequest.v1.json"
               }
             }
-          }
+          },
+          "description": "The Observation "
         }
       }
     }

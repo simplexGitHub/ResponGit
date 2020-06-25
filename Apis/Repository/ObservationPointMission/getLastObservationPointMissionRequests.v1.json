@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "getLastObservationPointMissionRequests",
+    "version": "1.0",
+    "description": "Get all the updated observation point requests since from current version sent as parameter"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3114"
+    }
+  ],
+  "paths": {
+    "/getLastObservationPointMissionRequests/{currentCollectionVersion}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentCollectionVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor last updated version"
+        }
+      ],
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastObservationPointMissionRequests-currentCollectionVersion",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/Repository Ent/repObservationPointMissionRequests.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Return all the entities that was updated since the current requestor version. If 0 is sent then return all."
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

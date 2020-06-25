@@ -7,33 +7,33 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3102"
+      "url": "http://localhost:3106"
     }
   ],
   "paths": {
     "/insertNewObservationMissionRequest": {
       "parameters": [],
-      "put": {
+      "post": {
         "summary": "",
-        "operationId": "put-observationMissionRequests-insertNewObservationMissionRequest",
+        "operationId": "post-insertNewObservationMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../models/repEntGenResponse.v1.json"
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
                 }
               }
             }
           }
         },
-        "description": "PUT new observation mission request to repository",
+        "description": "Post new observation mission request to repository",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../models/Repository Ent/repObservationMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/repObservationMissionRequest.v1.json"
               }
             }
           }
