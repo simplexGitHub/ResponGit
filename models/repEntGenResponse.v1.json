@@ -1,0 +1,25 @@
+{
+  "title": "repEntGenResponse",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The entity ID in the repository"
+    },
+    "entVersion": {
+      "type": "integer",
+      "description": "The entity version at the repository",
+      "minimum": 0
+    },
+    "collectionRepositoryVersion": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The latest collection repository version . Use for queries "
+    }
+  },
+  "required": [
+    "id",
+    "entVersion",
+    "collectionRepositoryVersion"
+  ]
+}
