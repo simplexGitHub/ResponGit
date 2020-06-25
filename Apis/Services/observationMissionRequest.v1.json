@@ -41,7 +41,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../models/Repository Ent/requestObservationMission.v1.json"
+                "$ref": "../../models/Services Ent/requestObservationMission.v1.json"
               }
             }
           }

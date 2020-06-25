@@ -2,14 +2,45 @@
   "openapi": "3.0.0",
   "info": {
     "title": "insertNewObservationMissionRequest",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "Insert new request to Repository"
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
+      "url": "http://localhost:3102"
     }
   ],
-  "paths": {},
+  "paths": {
+    "/insertNewObservationMissionRequest": {
+      "parameters": [],
+      "put": {
+        "summary": "",
+        "operationId": "put-observationMissionRequests-insertNewObservationMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/Repository Ent/repObservationMissionRequest.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "PUT new observation mission request to repository",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../models/Repository Ent/repObservationMissionRequest.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "components": {
     "schemas": {}
   }
