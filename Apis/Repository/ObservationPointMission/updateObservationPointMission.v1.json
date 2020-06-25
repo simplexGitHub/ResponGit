@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "updateObservationPointMission",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3105"
+    }
+  ],
+  "paths": {
+    "/updateObservationPointMission": {
+      "put": {
+        "summary": "",
+        "operationId": "put-updateObservationPointMission",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/repObservationMissionRequest.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
