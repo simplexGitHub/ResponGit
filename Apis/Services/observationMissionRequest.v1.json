@@ -12,22 +12,12 @@
   ],
   "paths": {
     "/observationMissionRequest": {
-      "put": {
+      "post": {
         "summary": "",
-        "operationId": "put-observationMissionRequest",
+        "operationId": "post-observationMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "../../models/generalResponse.v1.json"
-                }
-              }
-            }
-          },
-          "201": {
-            "description": "Created",
             "content": {
               "application/json": {
                 "schema": {
@@ -45,8 +35,7 @@
               }
             }
           }
-        },
-        "description": "Put an observation mission request responded by general response. If response is Success - the service takes responsibility for request completion"
+        }
       }
     }
   },

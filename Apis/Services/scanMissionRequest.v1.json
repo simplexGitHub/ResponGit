@@ -9,7 +9,37 @@
       "url": "http://localhost:3000"
     }
   ],
-  "paths": {},
+  "paths": {
+    "/scanMissionRequest": {
+      "post": {
+        "summary": "ScanMissionRequest",
+        "operationId": "post-scanMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Call for service of scan mission request",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
+              }
+            }
+          },
+          "description": "The scan mission request"
+        }
+      }
+    }
+  },
   "components": {
     "schemas": {}
   }
