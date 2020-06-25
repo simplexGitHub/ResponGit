@@ -13,7 +13,7 @@
   "paths": {
     "/observationMissionRequest": {
       "post": {
-        "summary": "",
+        "summary": "ObservationMissionRequest",
         "operationId": "post-observationMissionRequest",
         "responses": {
           "200": {
@@ -35,7 +35,8 @@
               }
             }
           }
-        }
+        },
+        "description": "The observation mission request"
       }
     }
   },
