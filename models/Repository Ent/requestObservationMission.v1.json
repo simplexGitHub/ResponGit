@@ -1,7 +1,7 @@
 {
   "title": "requestObservationMission",
   "type": "object",
-  "description": "",
+  "description": "Request for Observation Mission done by camera sensors",
   "properties": {
     "droneId": {
       "type": "string",
@@ -16,7 +16,7 @@
     },
     "observationAzimuth": {
       "type": "number",
-      "description": "Azimuth (Degrees) from which to look at point. Azimuth refferenced to the true North",
+      "description": "Azimuth (Degrees) from which to look at point. Azimuth refferenced to the true North\nIf the field is not sent the system will choose the azimuth",
       "minimum": 0,
       "maximum": 360
     },
@@ -24,14 +24,16 @@
       "type": "string",
       "enum": [
         "Pending",
-        "Rejected",
         "InProgress",
-        "Completed"
-      ]
+        "Completed",
+        "Cancelled"
+      ],
+      "description": "The request ststus that will enable all system participients to manage an operational process -\nPending - after the request was sent to the responsible service responded by Succes response\nInProgress - When the responsible service started to take care of the Request\nCancelled - When the Request will not be handled any more\nCompleted - When the Request was finished"
     }
   },
   "required": [
     "droneId",
-    "observationPoint"
+    "observationPoint",
+    "status"
   ]
 }
