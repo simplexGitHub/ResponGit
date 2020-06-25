@@ -1,0 +1,56 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "observationMissionRequest",
+    "version": "1.0",
+    "description": "Rquest for Observation Mission"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3102"
+    }
+  ],
+  "paths": {
+    "/observationMissionRequest": {
+      "put": {
+        "summary": "",
+        "operationId": "put-observationMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../models/Repository Ent/requestObservationMission.v1.json"
+              }
+            }
+          }
+        },
+        "description": "Put an observation mission request responded by general response. If response is Success - the service takes responsibility for request completion"
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
