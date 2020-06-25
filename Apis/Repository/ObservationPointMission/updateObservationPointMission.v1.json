@@ -32,7 +32,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/repObservationMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationMissionRequest.v1.json"
               }
             }
           },

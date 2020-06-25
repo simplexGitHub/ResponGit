@@ -12,7 +12,7 @@
       "description": "The enetity version in the repository"
     },
     "observationMissionRequest": {
-      "$ref": "../Services Ent/requestObservationMission.v1.json"
+      "$ref": "../../Services Ent/requestObservationMission.v1.json"
     }
   },
   "required": [
