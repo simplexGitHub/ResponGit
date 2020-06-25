@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "insertNewScanMissionRequest",
+    "version": "1.0",
+    "description": "Adding new Scan Mission Request to Repository"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3115"
+    }
+  ],
+  "paths": {
+    "/insertNewScanMissionRequest": {
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewScanMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Insert new scan mission request entity to repository",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
+              }
+            }
+          },
+          "description": "Set Id to \"\" and version to -1"
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

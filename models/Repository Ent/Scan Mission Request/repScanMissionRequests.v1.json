@@ -1,0 +1,12 @@
+{
+  "title": "repScanMissionRequests",
+  "type": "object",
+  "properties": {
+    "scanMissionRequests": {
+      "type": "array",
+      "items": {
+        "$ref": "./repScanMissionRequest.v1.json"
+      }
+    }
+  }
+}

@@ -1,9 +1,49 @@
 {
   "title": "requestScanMission",
   "type": "object",
+  "description": "Request for Observation Mission done by camera sensors",
   "properties": {
-    "id": {
-      "type": "string"
+    "droneId": {
+      "type": "string",
+      "description": "The selected drone ID to perform the task"
+    },
+    "polygon": {
+      "$ref": "../Polygon.v1.json"
+    },
+    "scanAngle": {
+      "type": "number",
+      "description": "Azimuth of scan pattern (refferenced to true north), default is 90deg"
+    },
+    "scanSpeed": {
+      "type": "string",
+      "description": "Scan pattern speed level (default=Medium)",
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "overlapPrecent": {
+      "type": "number",
+      "description": "Scan image overlap  in percent (default=15%)"
+    },
+    "cameraFOV": {
+      "type": "number",
+      "description": "Camera FOV in degrees"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "InProgress",
+        "Completed",
+        "Cancelled"
+      ],
+      "description": "The request ststus that will enable all system participients to manage an operational process -\nPending - after the request was sent to the responsible service responded by Succes response\nInProgress - When the responsible service started to take care of the Request\nCancelled - When the Request will not be handled any more\nCompleted - When the Request was finished"
     }
-  }
+  },
+  "required": [
+    "droneId",
+    "polygon"
+  ]
 }

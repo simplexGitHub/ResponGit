@@ -1,0 +1,21 @@
+{
+  "title": "repScanMissionRequest",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Entity Id. Blank \"\" if none (new)"
+    },
+    "version": {
+      "type": "string",
+      "description": "The entity version. -1 if new"
+    },
+    "scanMissionRequest": {
+      "$ref": "../../Services Ent/requestScanMission.v1.json"
+    }
+  },
+  "required": [
+    "id",
+    "version"
+  ]
+}
