@@ -1,0 +1,52 @@
+{
+  "title": "requestCommRelayMission",
+  "type": "object",
+  "properties": {
+    "droneId": {
+      "type": "string",
+      "description": "The drone that need to execute the requested mission"
+    },
+    "commRelayType": {
+      "type": "string",
+      "enum": [
+        "Area",
+        "Dynamic"
+      ],
+      "description": "Type of comm relay fixed or dynamic\nDynamic - folow FRs\nArea - Cover area"
+    },
+    "missionData": {
+      "oneOf": [
+        {
+          "properties": {
+            "area": {
+              "$ref": "../Polygon.v1.json"
+            },
+            "FRs": {
+              "type": "array",
+              "description": "Array of FRs Ids to follow",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ],
+      "description": "area - incase type is area\nFRs - in case type is dynamic",
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "InProgress",
+        "Completed",
+        "Cancelled"
+      ]
+    }
+  },
+  "required": [
+    "droneId",
+    "commRelayType",
+    "status"
+  ]
+}
