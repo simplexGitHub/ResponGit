@@ -1,0 +1,12 @@
+{
+  "title": "repMissions",
+  "type": "object",
+  "properties": {
+    "missions": {
+      "type": "array",
+      "items": {
+        "$ref": "./mission.v1.json"
+      }
+    }
+  }
+}

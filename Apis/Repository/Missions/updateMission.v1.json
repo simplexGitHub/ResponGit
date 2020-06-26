@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "insertNewMission",
+    "title": "updateMission",
     "version": "1.0"
   },
   "servers": [
@@ -10,17 +10,17 @@
     }
   ],
   "paths": {
-    "/insertNewMission": {
+    "/updateMission": {
       "post": {
         "summary": "",
-        "operationId": "post-insertNewMission",
+        "operationId": "post-updateMission",
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                  "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
                 }
               }
             }
@@ -30,7 +30,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
+                "$ref": "../../../models/Repository Ent/Missions/mission.v1.json"
               }
             }
           }
