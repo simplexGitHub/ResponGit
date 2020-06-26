@@ -1,0 +1,58 @@
+{
+  "title": "mission",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The Mission Id"
+    },
+    "requestId": {
+      "type": "string",
+      "description": "The Request that the Mission attach to. If no Request then Blank \"\""
+    },
+    "missionType": {
+      "type": "string",
+      "enum": [
+        "Scan",
+        "Patrol",
+        "Observation",
+        "CommRelay"
+      ],
+      "description": "The Mission type"
+    },
+    "missionMapOverlay": {
+      "type": "object",
+      "properties": {
+        "areas": {
+          "type": "array",
+          "items": {
+            "$ref": "../../Polygon.v1.json"
+          }
+        },
+        "point": {
+          "$ref": "../../GeoPoint.v1.json"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "InProgress",
+        "Cancelled",
+        "Completed"
+      ],
+      "description": "The Mission status"
+    },
+    "description": {
+      "type": "string",
+      "description": "Free text description about the Mission"
+    }
+  },
+  "required": [
+    "id",
+    "requestId",
+    "missionType",
+    "status"
+  ]
+}
