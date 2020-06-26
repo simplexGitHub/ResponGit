@@ -1,0 +1,12 @@
+{
+  "title": "repCommRelayMissionRequests",
+  "type": "object",
+  "properties": {
+    "commRelayMissionRequests": {
+      "type": "array",
+      "items": {
+        "$ref": "./repCommRelayMissionRequests.v1.json"
+      }
+    }
+  }
+}

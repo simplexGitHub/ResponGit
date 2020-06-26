@@ -3,7 +3,19 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": "string"
+      "type": "string",
+      "description": "The comm relay mission request repository id\nPut blank \"\" is using New"
+    },
+    "version": {
+      "type": "string",
+      "description": "The entity version in repository"
+    },
+    "commRelayMissionRequest": {
+      "$ref": "../../Services Ent/requestCommRelayMission.v1.json"
     }
-  }
+  },
+  "required": [
+    "id",
+    "version"
+  ]
 }
