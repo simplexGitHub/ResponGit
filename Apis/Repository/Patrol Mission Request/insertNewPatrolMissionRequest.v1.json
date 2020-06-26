@@ -6,17 +6,11 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
+      "url": "http://localhost:3121"
     }
   ],
   "paths": {
     "/insertNewPatrolMissionRequest": {
-      "get": {
-        "summary": "Your GET endpoint",
-        "tags": [],
-        "responses": {},
-        "operationId": "get-insertNewPatrolMissionRequest"
-      },
       "post": {
         "summary": "",
         "operationId": "post-insertNewPatrolMissionRequest",
@@ -26,7 +20,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../models/repEntGenResponse.v1.json"
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
                 }
               }
             }
@@ -36,7 +30,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../models/Repository Ent/Patrol Mission Request/repPatrolMissionRequest.v1.json"
+                "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
               }
             }
           }
