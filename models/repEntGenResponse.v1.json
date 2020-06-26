@@ -1,25 +1,33 @@
 {
   "title": "repEntGenResponse",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string",
-      "description": "The entity ID in the repository"
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The entity ID in the repository"
+        },
+        "entVersion": {
+          "type": "integer",
+          "description": "The entity version at the repository",
+          "minimum": 0
+        },
+        "collectionRepositoryVersion": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The latest collection repository version . Use for queries "
+        }
+      },
+      "required": [
+        "id",
+        "entVersion",
+        "collectionRepositoryVersion"
+      ]
     },
-    "entVersion": {
-      "type": "integer",
-      "description": "The entity version at the repository",
-      "minimum": 0
-    },
-    "collectionRepositoryVersion": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "The latest collection repository version . Use for queries "
+    {
+      "$ref": "./generalResponse.v1.json"
     }
-  },
-  "required": [
-    "id",
-    "entVersion",
-    "collectionRepositoryVersion"
-  ]
+  ],
+  "description": "If the repository transcation succeeded - return first option else return success \"false\" and description"
 }

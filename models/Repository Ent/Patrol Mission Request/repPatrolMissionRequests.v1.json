@@ -1,0 +1,12 @@
+{
+  "title": "repPatrolMissionRequests",
+  "type": "object",
+  "properties": {
+    "patrolMissionRequests": {
+      "type": "array",
+      "items": {
+        "$ref": "./repPatrolMissionRequest.v1.json"
+      }
+    }
+  }
+}

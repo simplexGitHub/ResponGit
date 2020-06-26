@@ -2,11 +2,12 @@
   "openapi": "3.0.0",
   "info": {
     "title": "getLastScanMissionRequests",
-    "version": "1.0"
+    "version": "1.0",
+    "description": ""
   },
   "servers": [
     {
-      "url": "http://localhost:3113"
+      "url": "http://localhost:3119"
     }
   ],
   "paths": {
