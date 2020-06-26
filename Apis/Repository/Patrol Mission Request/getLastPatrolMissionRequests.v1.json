@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "getLastPatrolMissionRequests",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/getLastPatrolMissionRequests/{currentVersion}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastPatrolMissionRequests",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Patrol Mission Request/repPatrolMissionRequests.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requester current collection version"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

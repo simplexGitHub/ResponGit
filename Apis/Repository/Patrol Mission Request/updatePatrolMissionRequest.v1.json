@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "insertNewPatrolMissionRequest",
+    "title": "updatePatrolMissionRequest",
     "version": "1.0"
   },
   "servers": [
@@ -10,22 +10,13 @@
     }
   ],
   "paths": {
-    "/insertNewPatrolMissionRequest": {
+    "/updatePatrolMissionRequest": {
       "post": {
         "summary": "",
         "operationId": "post-insertNewPatrolMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "../../../models/repEntGenResponse.v1.json"
-                }
-              }
-            }
-          },
-          "": {
             "content": {
               "application/json": {
                 "schema": {
@@ -41,10 +32,23 @@
               "schema": {
                 "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
               }
+            },
+            "application/xml": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
             }
           }
         }
-      }
+      },
+      "parameters": []
     }
   },
   "components": {
