@@ -28,6 +28,7 @@
     },
     "route": {
       "type": "array",
+      "minItems": 2,
       "items": {
         "$ref": "../../Services Ent/PointOfRoute.v1.json"
       }
