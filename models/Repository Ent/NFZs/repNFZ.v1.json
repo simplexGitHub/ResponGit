@@ -1,0 +1,29 @@
+{
+  "title": "repNFZ",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Entity Id in repository.\nUse Blank \"\" when New"
+    },
+    "name": {
+      "type": "string",
+      "description": "The NFZ name"
+    },
+    "polygon": {
+      "$ref": "../../Polygon.v1.json"
+    },
+    "minAlt": {
+      "type": "number",
+      "description": "Min alt in meters ASL.\nIf not sent - no minimum altitude"
+    },
+    "maxAlt": {
+      "type": "number",
+      "description": "Max alt in meters ASL.\nIf not sent - no max altitude"
+    }
+  },
+  "required": [
+    "id",
+    "polygon"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "repNFZs",
+  "type": "object",
+  "properties": {
+    "NFZs": {
+      "type": "array",
+      "items": {
+        "$ref": "./repNFZ.v1.json"
+      }
+    }
+  }
+}
