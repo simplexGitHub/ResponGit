@@ -1,0 +1,48 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "getLastNFZs",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/getLastNFZs/{currentVersion}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastNFZs",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/Repository Ent/NFZs/repNFZs.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requester current collection version"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

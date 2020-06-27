@@ -9,7 +9,35 @@
       "url": "http://localhost:3000"
     }
   ],
-  "paths": {},
+  "paths": {
+    "/insertNewNFZ": {
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewNFZ",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/NFZs/repNFZ.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "components": {
     "schemas": {}
   }
