@@ -1,0 +1,154 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "mission",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+      "/deleteMission/{id}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-deleteMission",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The Mission Id to delete"
+        }
+      ]
+    },
+     "/getLastMissions/{currentVersion}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastMissions",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Missions/repMissions.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Missions/repMissions.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor current collection version"
+        }
+      ]
+    },
+      "/insertNewMission": {
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewMission",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+      "/updateMission": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateMission",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Missions/mission.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
