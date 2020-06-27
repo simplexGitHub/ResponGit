@@ -1,0 +1,56 @@
+{
+  "title": "repGraphicOverlay",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The entiry Id.\nPut Blank \"\" if New"
+    },
+    "name": {
+      "type": "string",
+      "description": "Overlay name"
+    },
+    "shape": {
+      "oneOf": [
+        {
+          "items": {
+            "$ref": "./GeoPoint.v1.json"
+          }
+        },
+        {
+          "items": {
+            "$ref": "./Polygon.v1.json"
+          }
+        }
+      ],
+      "description": "The shape of the overlay",
+      "type": "array"
+    },
+    "color": {
+      "type": "string",
+      "enum": [
+        "Red",
+        "Green",
+        "Blue",
+        "Black",
+        "White",
+        "Yellow",
+        "Grey",
+        "Default"
+      ]
+    },
+    "Type": {
+      "type": "string",
+      "enum": [
+        "FireLine",
+        "People",
+        "Vehicles",
+        "General"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "shape"
+  ]
+}
