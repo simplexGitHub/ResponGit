@@ -1,0 +1,49 @@
+{
+  "title": "repMissionRoute",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The Mission Route entity id in repository.\nUse Blnak \"\" when New"
+    },
+    "requestId": {
+      "type": "string",
+      "description": "The Request Id that the Mission Route linked to.\nIf no Request linked then Blank \"\""
+    },
+    "missionId": {
+      "type": "string",
+      "description": "The Mission id that the Mission Route is linked to.\nIf no link to Mission then don't send field"
+    },
+    "missionType": {
+      "type": "string",
+      "enum": [
+        "CommRelay",
+        "Observation",
+        "Scan",
+        "Patrol",
+        "None"
+      ],
+      "description": "The mission type in case no request or mission linked"
+    },
+    "route": {
+      "type": "array",
+      "items": {
+        "$ref": "../../Services Ent/PointOfRoute.v1.json"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Active",
+        "NotActive"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "requestId",
+    "route",
+    "status"
+  ]
+}

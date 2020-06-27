@@ -1,0 +1,20 @@
+{
+  "title": "PointOfRoute",
+  "type": "object",
+  "properties": {
+    "point": {
+      "$ref": "../GeoPoint.v1.json"
+    },
+    "velocity": {
+      "type": "number",
+      "description": "The UAV velocity at point in m/s"
+    },
+    "heading": {
+      "type": "number",
+      "description": "Uav heading in degrees refrence to true north"
+    }
+  },
+  "required": [
+    "point"
+  ]
+}
