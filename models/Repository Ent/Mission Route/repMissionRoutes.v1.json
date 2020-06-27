@@ -1,0 +1,16 @@
+{
+  "title": "repMissionRoutes",
+  "type": "object",
+  "properties": {
+    "missionRoutes": {
+      "type": "array",
+      "description": "Array of mission routes",
+      "items": {
+        "$ref": "./repMissionRoute.v1.json"
+      }
+    }
+  },
+  "required": [
+    "missionRoutes"
+  ]
+}
