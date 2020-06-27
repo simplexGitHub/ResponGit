@@ -10,10 +10,10 @@
     }
   ],
   "paths": {
-     "deletePatrolMissionRequest": {
+      "/deleteScanMissionRequest/{id}": {
       "post": {
-        "summary": "deletePatrolMissionRequest",
-        "operationId": "post-deleteScanMissionRequest",
+        "summary": "deleteScanMissionRequest",
+        "operationId": "post-deleteScanMission",
         "responses": {
           "200": {
             "description": "OK"
@@ -28,30 +28,35 @@
             }
           }
         },
-        "parameters": []
+        "description": "Delete the scan mission request entity from repository"
       },
-      "parameters": []
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The entity id to delete"
+        }
+      ]
     },
-      "/getLastPatrolMissionRequests/{currentVersion}": {
+      "/getLastScanMissionRequests/{currentVersion}": {
       "post": {
         "summary": "",
-        "operationId": "post-getLastPatrolMissionRequests",
+        "operationId": "post-getLastScanMissionRequests",
         "responses": {
           "200": {
             "description": "OK"
           },
           "": {
+            "headers": {},
+            "description": "The array of entities updated from last repository version",
             "content": {
               "application/json": {
                 "schema": {
-                  "oneOf": [
-                    {
-                      "$ref": "../../../models/generalResponse.v1.json"
-                    },
-                    {
-                      "$ref": "../../../models/Repository Ent/Patrol Mission Request/repPatrolMissionRequests.v1.json"
-                    }
-                  ]
+                  "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequests.v1.json"
                 }
               }
             }
@@ -61,19 +66,19 @@
       "parameters": [
         {
           "schema": {
-            "type": "integer"
+            "type": "number"
           },
           "name": "currentVersion",
           "in": "path",
           "required": true,
-          "description": "The requester current collection version"
+          "description": "The current collection version that the requester hold"
         }
       ]
     },
-      "/insertNewPatrolMissionRequest": {
+      "/insertNewScanMissionRequest": {
       "post": {
         "summary": "",
-        "operationId": "post-insertNewPatrolMissionRequest",
+        "operationId": "post-insertNewScanMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
@@ -84,8 +89,28 @@
                 }
               }
             }
+          }
+        },
+        "description": "Insert new scan mission request entity to repository",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
+              }
+            }
           },
-          "": {
+          "description": "Set Id to \"\" and version to -1"
+        }
+      }
+    },
+      "/updateScanMissionRequest": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateScanMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -99,52 +124,12 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
+                "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
               }
             }
           }
         }
       }
-    },
-      "/updatePatrolMissionRequest": {
-      "post": {
-        "summary": "",
-        "operationId": "post-insertNewPatrolMissionRequest",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "../../../models/repEntGenResponse.v1.json"
-                }
-              }
-            }
-          }
-        },
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
-              }
-            },
-            "application/xml": {
-              "schema": {
-                "type": "object",
-                "properties": {}
-              }
-            },
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {}
-              }
-            }
-          }
-        }
-      },
-      "parameters": []
     }
   },
   "components": {
