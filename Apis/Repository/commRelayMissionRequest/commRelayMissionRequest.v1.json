@@ -1,0 +1,141 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "commRelayMissionRequest",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+"paths": {
+    "/deleteCommRelayMissionRequest/{id}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-deleteCommRelayMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The comm mission request id to delete"
+        }
+      ]
+    },
+      "/getLastCommRelayMissionRequests/{currentVersion}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastCommRelayMissionRequests",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequests.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor current repository version number for collection"
+        }
+      ]
+      },
+          "/insertNewCommRelayMissionRequest": {
+      "post": {
+        "summary": "insertNewCommRelayMissionRequest",
+        "operationId": "post-insertNewCommRelayMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+       "/updateCommRelayMissionRequest": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateCommRelayMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+},
+  "components": {
+    "schemas": {}
+  }
+}

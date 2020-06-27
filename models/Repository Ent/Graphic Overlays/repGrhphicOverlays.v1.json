@@ -1,0 +1,12 @@
+{
+  "title": "repGrhphicOverlays",
+  "type": "object",
+  "properties": {
+    "graphicOverlays": {
+      "type": "array",
+      "items": {
+        "$ref": "./repGrhphicOverlays.v1.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "graphicOverlays",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/insertNewGraphicOverlay": {
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewGraphicOverlay",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Graphic Overlays/repGraphicOverlay.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/updateGraphicOverlay": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateGraphicOverlay",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Graphic Overlays/repGraphicOverlay.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/deleteGraphicOverlay/{id}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The entity id to delete"
+        }
+      ],
+      "post": {
+        "summary": "",
+        "operationId": "post-deleteGraphicOverlay-id",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getLastGraphicOverlays/{currentVersion}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastGraphicOverlays",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Graphic Overlays/repGrhphicOverlays.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/Repository Ent/Graphic Overlays/repGrhphicOverlays.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": ""
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor current collection version"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

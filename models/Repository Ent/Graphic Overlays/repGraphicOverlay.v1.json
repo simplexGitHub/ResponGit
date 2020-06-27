@@ -47,6 +47,9 @@
         "Vehicles",
         "General"
       ]
+    },
+    "creationTime": {
+      "$ref": "../../timestamp.v1.json"
     }
   },
   "required": [
