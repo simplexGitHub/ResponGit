@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "observationPointMission",
+    "title": "observationPointMissionRequest",
     "version": "1.0"
   },
   "servers": [
@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-      "/deleteObservationMissionRequest/{id}": {
+    "/deleteObservationMissionRequest/{id}": {
       "post": {
         "summary": "Delete Observation Point Mission Request",
         "operationId": "post-deleteObservationMissionRequest",
@@ -41,7 +41,7 @@
         }
       ]
     },
-        "/getLastObservationPointMissionRequests/{currentCollectionVersion}": {
+    "/getLastObservationPointMissionRequests/{currentCollectionVersion}": {
       "parameters": [
         {
           "schema": {
@@ -54,7 +54,7 @@
         }
       ],
       "post": {
-        "summary": "",
+        "summary": "getLastObservationPointMissionRequests",
         "operationId": "post-getLastObservationPointMissionRequests-currentCollectionVersion",
         "responses": {
           "200": {
@@ -72,10 +72,10 @@
         "description": "Return all the entities that was updated since the current requestor version. If 0 is sent then return all."
       }
     },
-      "/insertNewObservationMissionRequest": {
+    "/insertNewObservationMissionRequest": {
       "parameters": [],
       "post": {
-        "summary": "",
+        "summary": "insertNewObservationMissionRequest",
         "operationId": "post-insertNewObservationMissionRequest",
         "responses": {
           "200": {
@@ -101,9 +101,9 @@
         }
       }
     },
-      "/updateObservationPointMission": {
+    "/updateObservationPointMission": {
       "post": {
-        "summary": "",
+        "summary": "updateObservationPointMission",
         "operationId": "post-updateObservationPointMission",
         "responses": {
           "200": {
