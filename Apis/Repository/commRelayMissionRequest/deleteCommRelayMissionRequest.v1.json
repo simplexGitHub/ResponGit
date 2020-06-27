@@ -1,0 +1,48 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "deleteCommRelayMissionRequest",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/deleteCommRelayMissionRequest/{id}": {
+      "post": {
+        "summary": "",
+        "operationId": "post-deleteCommRelayMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The comm mission request id to delete"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

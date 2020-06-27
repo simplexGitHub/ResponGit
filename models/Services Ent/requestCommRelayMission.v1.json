@@ -20,10 +20,14 @@
           "properties": {
             "area": {
               "$ref": "../Polygon.v1.json"
-            },
+            }
+          }
+        },
+        {
+          "properties": {
             "FRs": {
               "type": "array",
-              "description": "Array of FRs Ids to follow",
+              "description": "Array of RF IDs to track",
               "items": {
                 "type": "string"
               }

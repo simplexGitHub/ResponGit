@@ -1,9 +1,13 @@
 {
   "title": "Polygon",
   "type": "object",
+  "x-examples": {
+    "example-1": {}
+  },
   "properties": {
     "coordinats": {
       "type": "array",
+      "minItems": 3,
       "items": {
         "$ref": "./GeoPoint.v1.json"
       }
@@ -11,8 +15,5 @@
   },
   "required": [
     "coordinats"
-  ],
-  "x-examples": {
-    "example-1": {}
-  }
+  ]
 }

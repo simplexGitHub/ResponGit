@@ -5,7 +5,7 @@
     "commRelayMissionRequests": {
       "type": "array",
       "items": {
-        "$ref": "./repCommRelayMissionRequests.v1.json"
+        "$ref": "../../Services Ent/requestCommRelayMission.v1.json"
       }
     }
   }

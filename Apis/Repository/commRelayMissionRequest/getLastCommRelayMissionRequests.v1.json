@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "getLastMissions",
+    "title": "getLastCommRelayMissionRequests",
     "version": "1.0"
   },
   "servers": [
@@ -10,27 +10,13 @@
     }
   ],
   "paths": {
-    "/getLastMissions/{currentVersion}": {
+    "/getLastCommRelayMissionRequests/{currentVersion}": {
       "post": {
         "summary": "",
-        "operationId": "post-getLastMissions",
+        "operationId": "post-getLastCommRelayMissionRequests",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "oneOf": [
-                    {
-                      "$ref": "../../../models/generalResponse.v1.json"
-                    },
-                    {
-                      "$ref": "../../../models/Repository Ent/Missions/repMissions.v1.json"
-                    }
-                  ]
-                }
-              }
-            }
+            "description": "OK"
           },
           "": {
             "content": {
@@ -41,7 +27,7 @@
                       "$ref": "../../../models/generalResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Missions/repMissions.v1.json"
+                      "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequests.v1.json"
                     }
                   ]
                 }
@@ -58,7 +44,7 @@
           "name": "currentVersion",
           "in": "path",
           "required": true,
-          "description": "The requestor current collection version"
+          "description": "The requestor current repository version number for collection"
         }
       ]
     }
