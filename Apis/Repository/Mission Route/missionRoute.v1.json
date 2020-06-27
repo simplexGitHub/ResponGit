@@ -1,0 +1,140 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "missionRoute",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+        "/deleteMissionRoute/{id}": {
+      "post": {
+        "summary": "deleteMissionRoute",
+        "operationId": "post-deleteMissionRoute",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "Entity Id to delete"
+        }
+      ]
+    },
+  "/getLastMissionRoutes/{currentVersion}": {
+      "post": {
+        "summary": "getLastMissionRoutes",
+        "operationId": "post-getLastMissionRoutes",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/generalResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Mission Route/repMissionRoutes.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor current collection version"
+        }
+      ]
+    },
+      "/insertNewMissionRoute": {
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewMissionRoute",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Mission Route/repMissionRoute.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+      "/updateMissionRoute": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateMissionRoute",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Mission Route/repMissionRoute.v1.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
