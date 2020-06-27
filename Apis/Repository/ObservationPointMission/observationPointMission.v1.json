@@ -1,0 +1,137 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "observationPointMission",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+      "/deleteObservationMissionRequest/{id}": {
+      "post": {
+        "summary": "Delete Observation Point Mission Request",
+        "operationId": "post-deleteObservationMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/generalResponse.v1.json"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true
+        }
+      ]
+    },
+        "/getLastObservationPointMissionRequests/{currentCollectionVersion}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "currentCollectionVersion",
+          "in": "path",
+          "required": true,
+          "description": "The requestor last updated version"
+        }
+      ],
+      "post": {
+        "summary": "",
+        "operationId": "post-getLastObservationPointMissionRequests-currentCollectionVersion",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationPointMissionRequests.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Return all the entities that was updated since the current requestor version. If 0 is sent then return all."
+      }
+    },
+      "/insertNewObservationMissionRequest": {
+      "parameters": [],
+      "post": {
+        "summary": "",
+        "operationId": "post-insertNewObservationMissionRequest",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Post new observation mission request to repository",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationMissionRequest.v1.json"
+              }
+            }
+          }
+        }
+      }
+    },
+      "/updateObservationPointMission": {
+      "post": {
+        "summary": "",
+        "operationId": "post-updateObservationPointMission",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Update a specific observation point request",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationMissionRequest.v1.json"
+              }
+            }
+          },
+          "description": "The Observation "
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
