@@ -1,26 +1,27 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "updateScanMissionRequest",
-    "version": "1.0"
+    "title": "setRequest",
+    "version": "1.0",
+    "description": "Set request for Alpha mission"
   },
   "servers": [
     {
-      "url": "http://localhost:3104"
+      "url": "http://localhost:3100"
     }
   ],
   "paths": {
-    "/updateScanMissionRequest": {
+    "/gimbalAction": {
       "post": {
         "summary": "",
-        "operationId": "post-updateScanMissionRequest",
+        "operationId": "post-gimbalAction",
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                  "$ref": "../../models/generalResponse.v1.json"
                 }
               }
             }
@@ -30,11 +31,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
-              }
+                "$ref": "../../models/Services Ent/gimbalCommands.v1.json"
+              },
+              "examples": {}
             }
-          }
-        }
+          },
+          "description": "contro"
+        },
+        "description": "control the gimbal"
       }
     }
   },
