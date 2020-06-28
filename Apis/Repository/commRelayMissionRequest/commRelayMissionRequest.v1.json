@@ -56,7 +56,21 @@
         "operationId": "post-getLastCommRelayMissionRequests",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
           },
           "": {
             "content": {

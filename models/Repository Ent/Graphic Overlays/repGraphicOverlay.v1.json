@@ -50,10 +50,15 @@
     },
     "creationTime": {
       "$ref": "../../timestamp.v1.json"
+    },
+    "deleted": {
+      "type": "boolean",
+      "description": "Used for requests to show that entity was deleted"
     }
   },
   "required": [
     "id",
     "shape"
-  ]
+  ],
+  "description": "A graphic shape that can be geo located"
 }

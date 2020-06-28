@@ -5,7 +5,7 @@
     "graphicOverlays": {
       "type": "array",
       "items": {
-        "$ref": "./repGrhphicOverlays.v1.json"
+        "$ref": "./repGraphicOverlay.v1.json"
       }
     }
   }
