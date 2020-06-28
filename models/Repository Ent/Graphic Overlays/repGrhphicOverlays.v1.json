@@ -4,6 +4,7 @@
   "properties": {
     "graphicOverlays": {
       "type": "array",
+      "description": "If the response is success false don't send the object",
       "items": {
         "$ref": "./repGraphicOverlay.v1.json"
       }

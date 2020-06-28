@@ -4,15 +4,11 @@
     {
       "type": "object",
       "properties": {
-        "collectionRepositoryVersion": {
+        "collectionVersion": {
           "type": "integer",
-          "minimum": 0,
-          "description": "The latest collection repository version . Use for queries. If erquest fail - return success false and description"
+          "description": "The collection updated version"
         }
-      },
-      "required": [
-        "collectionRepositoryVersion"
-      ]
+      }
     },
     {
       "$ref": "./generalResponse.v1.json"
