@@ -47,7 +47,21 @@
         "operationId": "post-getLastMissionRoutes",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/repEntGenResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Mission Route/repMissionRoutes.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
           },
           "": {
             "content": {

@@ -113,14 +113,15 @@
                 "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
               }
             }
-          }
+          },
+          "description": "POST the repository entity to insert"
         },
         "description": "Insert new Comm Relay Mission Request Entity. The service will ignore id and version values."
       }
     },
     "/updateCommRelayMissionRequest": {
       "post": {
-        "summary": "",
+        "summary": "updateCommRelayMissionRequest",
         "operationId": "post-updateCommRelayMissionRequest",
         "responses": {
           "200": {
@@ -142,7 +143,8 @@
               }
             }
           }
-        }
+        },
+        "description": "Update the entity that match the id. If id does not exist - response success false."
       }
     }
   },

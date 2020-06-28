@@ -15,12 +15,11 @@
     },
     "deleted": {
       "type": "boolean",
-      "description": "Indicate that the entity was deleted."
+      "description": "Indicate that the entity was deleted.\nUse only for requets. Not relevant on insert, update and delete"
     }
   },
   "required": [
     "id",
-    "version",
-    "deleted"
+    "version"
   ]
 }
