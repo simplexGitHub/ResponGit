@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-      "/deleteMission/{id}": {
+    "/deleteMission/{id}": {
       "post": {
         "summary": "",
         "operationId": "post-deleteMission",
@@ -41,7 +41,7 @@
         }
       ]
     },
-     "/getLastMissions/{currentVersion}": {
+    "/getLastMissions/{currentVersion}": {
       "post": {
         "summary": "",
         "operationId": "post-getLastMissions",
@@ -69,7 +69,7 @@
                 "schema": {
                   "oneOf": [
                     {
-                      "$ref": "../../../models/generalResponse.v1.json"
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
                       "$ref": "../../../models/Repository Ent/Missions/repMissions.v1.json"
@@ -93,7 +93,7 @@
         }
       ]
     },
-      "/insertNewMission": {
+    "/insertNewMission": {
       "post": {
         "summary": "",
         "operationId": "post-insertNewMission",
@@ -120,7 +120,7 @@
         }
       }
     },
-      "/updateMission": {
+    "/updateMission": {
       "post": {
         "summary": "",
         "operationId": "post-updateMission",

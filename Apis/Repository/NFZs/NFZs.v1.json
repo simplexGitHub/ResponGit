@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-      "/deleteNFZ/{id}": {
+    "/deleteNFZ/{id}": {
       "post": {
         "summary": "",
         "operationId": "post-deleteNFZ",
@@ -41,7 +41,7 @@
         }
       ]
     },
-     "/getLastNFZs/{currentVersion}": {
+    "/getLastNFZs/{currentVersion}": {
       "post": {
         "summary": "",
         "operationId": "post-getLastNFZs",
@@ -53,7 +53,14 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/Repository Ent/NFZs/repNFZs.v1.json"
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/NFZs/repNFZs.v1.json"
+                    }
+                  ]
                 }
               }
             }
@@ -72,7 +79,7 @@
         }
       ]
     },
-      "/insertNewNFZ": {
+    "/insertNewNFZ": {
       "post": {
         "summary": "",
         "operationId": "post-insertNewNFZ",
@@ -98,37 +105,6 @@
           }
         }
       }
-    },
-     "/getLastNFZs/{currentVersion}": {
-      "post": {
-        "summary": "",
-        "operationId": "post-getLastNFZs",
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "../../../models/Repository Ent/NFZs/repNFZs.v1.json"
-                }
-              }
-            }
-          }
-        }
-      },
-      "parameters": [
-        {
-          "schema": {
-            "type": "integer"
-          },
-          "name": "currentVersion",
-          "in": "path",
-          "required": true,
-          "description": "The requester current collection version"
-        }
-      ]
     }
   },
   "components": {

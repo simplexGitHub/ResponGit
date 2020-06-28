@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-        "/deleteMissionRoute/{id}": {
+    "/deleteMissionRoute/{id}": {
       "post": {
         "summary": "deleteMissionRoute",
         "operationId": "post-deleteMissionRoute",
@@ -41,7 +41,7 @@
         }
       ]
     },
-  "/getLastMissionRoutes/{currentVersion}": {
+    "/getLastMissionRoutes/{currentVersion}": {
       "post": {
         "summary": "getLastMissionRoutes",
         "operationId": "post-getLastMissionRoutes",
@@ -55,7 +55,7 @@
                 "schema": {
                   "oneOf": [
                     {
-                      "$ref": "../../../models/generalResponse.v1.json"
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
                       "$ref": "../../../models/Repository Ent/Mission Route/repMissionRoutes.v1.json"
@@ -79,7 +79,7 @@
         }
       ]
     },
-      "/insertNewMissionRoute": {
+    "/insertNewMissionRoute": {
       "post": {
         "summary": "",
         "operationId": "post-insertNewMissionRoute",
@@ -106,7 +106,7 @@
         }
       }
     },
-      "/updateMissionRoute": {
+    "/updateMissionRoute": {
       "post": {
         "summary": "",
         "operationId": "post-updateMissionRoute",

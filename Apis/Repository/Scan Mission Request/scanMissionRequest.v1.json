@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-      "/deleteScanMissionRequest/{id}": {
+    "/deleteScanMissionRequest/{id}": {
       "post": {
         "summary": "deleteScanMissionRequest",
         "operationId": "post-deleteScanMission",
@@ -42,13 +42,27 @@
         }
       ]
     },
-      "/getLastScanMissionRequests/{currentVersion}": {
+    "/getLastScanMissionRequests/{currentVersion}": {
       "post": {
         "summary": "",
         "operationId": "post-getLastScanMissionRequests",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequests.v1.json"
+                    }
+                  ]
+                }
+              }
+            }
           },
           "": {
             "headers": {},
@@ -75,7 +89,7 @@
         }
       ]
     },
-      "/insertNewScanMissionRequest": {
+    "/insertNewScanMissionRequest": {
       "post": {
         "summary": "",
         "operationId": "post-insertNewScanMissionRequest",
@@ -104,7 +118,7 @@
         }
       }
     },
-      "/updateScanMissionRequest": {
+    "/updateScanMissionRequest": {
       "post": {
         "summary": "",
         "operationId": "post-updateScanMissionRequest",

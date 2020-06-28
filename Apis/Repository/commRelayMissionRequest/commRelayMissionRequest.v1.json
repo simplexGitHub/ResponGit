@@ -9,7 +9,7 @@
       "url": "http://localhost:3000"
     }
   ],
-"paths": {
+  "paths": {
     "/deleteCommRelayMissionRequest/{id}": {
       "post": {
         "summary": "",
@@ -41,7 +41,7 @@
         }
       ]
     },
-      "/getLastCommRelayMissionRequests/{currentVersion}": {
+    "/getLastCommRelayMissionRequests/{currentVersion}": {
       "post": {
         "summary": "",
         "operationId": "post-getLastCommRelayMissionRequests",
@@ -55,7 +55,7 @@
                 "schema": {
                   "oneOf": [
                     {
-                      "$ref": "../../../models/generalResponse.v1.json"
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
                       "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequests.v1.json"
@@ -78,8 +78,8 @@
           "description": "The requestor current repository version number for collection"
         }
       ]
-      },
-          "/insertNewCommRelayMissionRequest": {
+    },
+    "/insertNewCommRelayMissionRequest": {
       "post": {
         "summary": "insertNewCommRelayMissionRequest",
         "operationId": "post-insertNewCommRelayMissionRequest",
@@ -107,7 +107,7 @@
         }
       }
     },
-       "/updateCommRelayMissionRequest": {
+    "/updateCommRelayMissionRequest": {
       "post": {
         "summary": "",
         "operationId": "post-updateCommRelayMissionRequest",
@@ -134,7 +134,7 @@
         }
       }
     }
-},
+  },
   "components": {
     "schemas": {}
   }

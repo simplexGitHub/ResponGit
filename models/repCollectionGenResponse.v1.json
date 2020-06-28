@@ -1,0 +1,22 @@
+{
+  "title": "repCollectionGenResponse",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "collectionRepositoryVersion": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The latest collection repository version . Use for queries "
+        }
+      },
+      "required": [
+        "collectionRepositoryVersion"
+      ]
+    },
+    {
+      "$ref": "./generalResponse.v1.json"
+    }
+  ],
+  "description": "If the repository transcation succeeded - return first option else return success \"false\" and description"
+}
