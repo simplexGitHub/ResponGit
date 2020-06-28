@@ -12,22 +12,31 @@
   "paths": {
     "/deleteCommRelayMissionRequest/{id}": {
       "post": {
-        "summary": "",
+        "summary": "deleteCommRelayMissionRequest",
         "operationId": "post-deleteCommRelayMissionRequest",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
           },
           "": {
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/generalResponse.v1.json"
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
                 }
               }
-            }
+            },
+            "description": "The result of the request"
           }
-        }
+        },
+        "description": "Delete the entity according to id."
       },
       "parameters": [
         {
@@ -65,7 +74,8 @@
               }
             }
           }
-        }
+        },
+        "description": "Get the last updated documents (records) from the currentVersion sent by the requester "
       },
       "parameters": [
         {
@@ -104,7 +114,8 @@
               }
             }
           }
-        }
+        },
+        "description": "Insert new Comm Relay Mission Request Entity. The service will ignore id and version values."
       }
     },
     "/updateCommRelayMissionRequest": {

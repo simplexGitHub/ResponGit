@@ -12,10 +12,15 @@
     },
     "commRelayMissionRequest": {
       "$ref": "../../Services Ent/requestCommRelayMission.v1.json"
+    },
+    "deleted": {
+      "type": "boolean",
+      "description": "Indicate that the entity was deleted."
     }
   },
   "required": [
     "id",
-    "version"
+    "version",
+    "deleted"
   ]
 }

@@ -7,7 +7,7 @@
         "collectionRepositoryVersion": {
           "type": "integer",
           "minimum": 0,
-          "description": "The latest collection repository version . Use for queries "
+          "description": "The latest collection repository version . Use for queries. If erquest fail - return success false and description"
         }
       },
       "required": [
