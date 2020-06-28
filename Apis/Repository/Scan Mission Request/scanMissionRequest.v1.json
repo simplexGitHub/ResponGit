@@ -70,7 +70,14 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequests.v1.json"
+                  "anyOf": [
+                    {
+                      "$ref": "../../../models/repCollectionGenResponse.v1.json"
+                    },
+                    {
+                      "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequests.v1.json"
+                    }
+                  ]
                 }
               }
             }

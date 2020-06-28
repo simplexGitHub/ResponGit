@@ -53,7 +53,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "oneOf": [
+                  "anyOf": [
                     {
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },

@@ -51,7 +51,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "oneOf": [
+                  "anyOf": [
                     {
                       "$ref": "../../../models/generalResponse.v1.json"
                     },
@@ -67,7 +67,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "oneOf": [
+                  "anyOf": [
                     {
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
