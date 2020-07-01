@@ -1,0 +1,16 @@
+{
+  "title": "repDiscoveryServices",
+  "type": "object",
+  "description": "All the system services data and statuses",
+  "properties": {
+    "repDiscoveryServices": {
+      "type": "array",
+      "items": {
+        "$ref": "./repDiscoveryService.v1.json"
+      }
+    }
+  },
+  "required": [
+    "repDiscoveryServices"
+  ]
+}

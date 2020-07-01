@@ -21,5 +21,6 @@
   "required": [
     "id",
     "version"
-  ]
+  ],
+  "description": "The Comm Relay Mission Request Entity Json Schema"
 }
