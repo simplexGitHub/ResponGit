@@ -78,7 +78,7 @@
         }
       ],
       "post": {
-        "summary": "",
+        "summary": "deleteGraphicOverlay",
         "operationId": "post-deleteGraphicOverlay-id",
         "responses": {
           "200": {

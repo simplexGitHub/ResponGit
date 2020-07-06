@@ -1,0 +1,65 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "discovery",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/updateDiscovery": {
+      "post": {
+        "summary": "updateDiscovery",
+        "operationId": "post-updateDiscovery",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Update discovery entity",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../../models/Repository Ent/Discovery/repDiscoveryService.v1.json"
+              }
+            }
+          },
+          "description": "The discovery entity to update"
+        }
+      }
+    },
+    "/getAllDiscovery": {
+      "post": {
+        "summary": "getAllDiscovery",
+        "operationId": "post-getAllDiscovery",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/Repository Ent/Discovery/repDiscoveryServices.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": "Get all the discovery enetities (not by version)"
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
