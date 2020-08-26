@@ -1,13 +1,14 @@
 {
   "title": "repCommRelayMissionRequest",
   "type": "object",
+  "description": "The Comm Relay Mission Request Entity Json Schema",
   "properties": {
     "id": {
       "type": "string",
       "description": "The comm relay mission request repository id\nPut blank \"\" is using New"
     },
     "version": {
-      "type": "string",
+      "type": "number",
       "description": "The entity version in repository"
     },
     "commRelayMissionRequest": {
@@ -21,6 +22,5 @@
   "required": [
     "id",
     "version"
-  ],
-  "description": "The Comm Relay Mission Request Entity Json Schema"
+  ]
 }

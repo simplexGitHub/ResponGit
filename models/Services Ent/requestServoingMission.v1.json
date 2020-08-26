@@ -1,0 +1,12 @@
+{
+    "title": "requestServoingMission",
+    "type": "object",
+    "properties": {
+      "droneId": {
+        "type": "string"
+      },
+      "targetId": {
+        "type": "number"
+      }
+    }
+  }

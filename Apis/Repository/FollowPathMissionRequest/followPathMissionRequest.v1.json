@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "patrolMissionRequest",
+    "title": "followPathMissionRequest",
     "version": "1.0"
   },
   "servers": [
@@ -10,13 +10,20 @@
     }
   ],
   "paths": {
-    "deletePatrolMissionRequest": {
+    "deleteFollowPathMissionRequest": {
       "post": {
-        "summary": "deletePatrolMissionRequest",
-        "operationId": "post-deleteScanMissionRequest",
+        "summary": "deleteFollowPathMissionRequest",
+        "operationId": "post-deleteFollowPathMissionRequest",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
           },
           "": {
             "content": {
@@ -32,10 +39,10 @@
       },
       "parameters": []
     },
-    "/getLastPatrolMissionRequests/{currentVersion}": {
+    "/getLastFollowPathMissionRequests/{currentVersion}": {
       "post": {
-        "summary": "getLastPatrolMissionRequests",
-        "operationId": "post-getLastPatrolMissionRequests",
+        "summary": "getLastFollowPathMissionRequests",
+        "operationId": "post-getLastFollowPathMissionRequests",
         "responses": {
           "200": {
             "description": "OK",
@@ -47,23 +54,7 @@
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Patrol Mission Request/repPatrolMissionRequests.v1.json"
-                    }
-                  ]
-                }
-              }
-            }
-          },
-          "": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "anyOf": [
-                    {
-                      "$ref": "../../../models/generalResponse.v1.json"
-                    },
-                    {
-                      "$ref": "../../../models/Repository Ent/Patrol Mission Request/repPatrolMissionRequests.v1.json"
+                      "$ref": "../../../models/Repository Ent/FollowPath Mission Request/repFollowPathMissionRequests.v1.json"
                     }
                   ]
                 }
@@ -84,22 +75,13 @@
         }
       ]
     },
-    "/insertNewPatrolMissionRequest": {
+    "/insertNewFollowPathMissionRequest": {
       "post": {
-        "summary": "insertNewPatrolMissionRequest",
-        "operationId": "post-insertNewPatrolMissionRequest",
+        "summary": "insertNewFollowPathMissionRequest",
+        "operationId": "post-insertNewFollowPathMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "../../../models/repEntGenResponse.v1.json"
-                }
-              }
-            }
-          },
-          "": {
             "content": {
               "application/json": {
                 "schema": {
@@ -113,17 +95,18 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
+                "$ref": "../../../models/Services Ent/requestFollowPathMission.v1.json"
               }
             }
           }
         }
-      }
+      },
+      "parameters": []
     },
-    "/updatePatrolMissionRequest": {
+    "/updateFollowPathMissionRequest": {
       "post": {
-        "summary": "updatePatrolMissionRequest",
-        "operationId": "post-insertNewPatrolMissionRequest",
+        "summary": "updateFollowPathMissionRequest",
+        "operationId": "post-updateFollowPathMissionRequest",
         "responses": {
           "200": {
             "description": "OK",
@@ -140,7 +123,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Services Ent/requestPatrolMission.v1.json"
+                "$ref": "../../../models/Services Ent/requestFollowPathMission.v1.json"
               }
             },
             "application/xml": {

@@ -1,0 +1,44 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "servoingMissionRequest",
+      "version": "1.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ],
+    "paths": {
+      "/servoingMissionRequest": {
+        "post": {
+          "summary": "",
+          "operationId": "post-servoingMissionRequest",
+          "responses": {
+            "200": {
+              "description": "OK",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "../../models/generalResponse.v1.json"
+                  }
+                }
+              }
+            }
+          },
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../models/Services Ent/requestServoingMission.v1.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {}
+    }
+  }

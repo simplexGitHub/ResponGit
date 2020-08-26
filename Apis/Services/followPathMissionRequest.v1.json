@@ -1,8 +1,10 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "patrolMissionRequest",
-    "version": "1.0"
+    "title": "followPathMissionRequest",
+    "version": "1.0",
+    "description": "Request for FollowPath Mission",
+    "contact": {}
   },
   "servers": [
     {
@@ -10,7 +12,7 @@
     }
   ],
   "paths": {
-    "/patrolMissionRequest": {
+    "/followPathMissionRequest": {
       "post": {
         "summary": "patrolMissionRequest",
         "operationId": "post-patrolMissionRequest",
@@ -26,17 +28,19 @@
             }
           }
         },
-        "description": "Request of Patrol Mission",
+        "description": "Request of FollowPath Mission",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../models/Services Ent/requestPatrolMission.v1.json"
+                "$ref": "../../models/Services Ent/requestFollowPathMission.v1.json"
               }
             }
-          }
+          },
+          "description": ""
         }
-      }
+      },
+      "parameters": []
     }
   },
   "components": {

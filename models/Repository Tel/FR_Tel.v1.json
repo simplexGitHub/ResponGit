@@ -20,7 +20,7 @@
       "example": "\"Police\""
     },
     "location": {
-      "$ref": "./GeoPoint.v1.json"
+      "$ref": "../GeoPoint.v1.json"
     },
     "lastUpdated": {
       "$ref": "../timestamp.v1.json"

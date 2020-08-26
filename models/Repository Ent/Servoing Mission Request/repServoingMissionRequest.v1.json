@@ -1,0 +1,22 @@
+{
+    "title": "repObservationMissionRequest",
+    "type": "object",
+    "description": "The model for the observation mission request in the repository",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "The DB ID"
+      },
+      "version": {
+        "type": "number",
+        "description": "The enetity version in the repository"
+      },
+      "observationMissionRequest": {
+        "$ref": "../../Services Ent/requestServoingMission.v1.json"
+      }
+    },
+    "required": [
+      "id",
+      "version"
+    ]
+  }

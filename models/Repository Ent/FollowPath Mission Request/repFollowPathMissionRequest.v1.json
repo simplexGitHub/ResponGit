@@ -7,16 +7,16 @@
       "description": "Entity Id. Blank \"\" if none (new)"
     },
     "version": {
-      "type": "string",
-      "description": "The entity version. -1 if new"
+      "description": "The entity version. -1 if new",
+      "type": "number"
     },
-    "patrolMissionRequest": {
-      "$ref": "../Services Ent/requestPatrolMission.v1.json"
+    "followPathMissionRequest": {
+      "$ref": "../../Services Ent/requestFollowPathMission.v1.json"
     }
   },
   "required": [
     "id",
     "version",
-    "patrolMissionRequest"
+    "followPathMissionRequest"
   ]
 }

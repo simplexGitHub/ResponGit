@@ -2,10 +2,10 @@
   "title": "repPatrolMissionRequests",
   "type": "object",
   "properties": {
-    "patrolMissionRequests": {
+    "followPathMissionRequests": {
       "type": "array",
       "items": {
-        "$ref": "./repPatrolMissionRequest.v1.json"
+        "$ref": "./repFollowPathMissionRequest.v1.json"
       }
     }
   }

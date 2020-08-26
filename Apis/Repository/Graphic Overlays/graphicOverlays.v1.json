@@ -110,7 +110,7 @@
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Graphic Overlays/repGrhphicOverlays.v1.json"
+                      "$ref": "../../../models/Repository Ent/Graphic Overlays/repGraphicOverlays.v1.json"
                     }
                   ]
                 }
@@ -126,7 +126,7 @@
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Graphic Overlays/repGrhphicOverlays.v1.json"
+                      "$ref": "../../../models/Repository Ent/Graphic Overlays/repGraphicOverlays.v1.json"
                     }
                   ]
                 }

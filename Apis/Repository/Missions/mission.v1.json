@@ -130,7 +130,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
                 }
               }
             }
@@ -140,7 +140,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Missions/mission.v1.json"
+                "$ref": "../../../models/Repository Ent/Missions/repMission.v1.json"
               }
             }
           }

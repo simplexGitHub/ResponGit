@@ -7,7 +7,7 @@
       "description": "Entity Id. Blank \"\" if none (new)"
     },
     "version": {
-      "type": "string",
+      "type": "number",
       "description": "The entity version. -1 if new"
     },
     "scanMissionRequest": {
