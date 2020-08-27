@@ -5,7 +5,7 @@
     "missions": {
       "type": "array",
       "items": {
-        "$ref": "./mission.v1.json"
+        "$ref": "./repMission.v1.json"
       }
     }
   }

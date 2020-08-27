@@ -1,5 +1,5 @@
 {
-  "title": "Gimbals",
+  "title": "Gimbals_Tel",
   "type": "object",
   "properties": {
     "timestamp": {
@@ -9,7 +9,7 @@
       "type": "array",
       "description": "Gimbals telemetry. All gimbals telemetry data should be sent each message. The current message always overide the old messages",
       "items": {
-        "$ref": "./Gimbal.v1.json"
+        "$ref": "./Gimbal_Tel.v1.json"
       }
     }
   },

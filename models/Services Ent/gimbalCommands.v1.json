@@ -1,31 +1,31 @@
-      {
-        "title": "gimbalCommands",
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string"
-          },
-          "pitch": {
-            "type": "number",
-            "example": 0,
-            "description": "delta pitch",
-            "minimum": -10,
-            "maximum": 10
-          },
-          "yaw": {
-            "type": "number",
-            "minimum": -10,
-            "maximum": 10,
-            "description": "delta yaw"
-          },
-          "requestorID": {
-            "type": "string",
-            "description": "The ID of the requestor want to control the gimbal"
-          }
-        },
-        "required": [
-          "id",
-          "pitch",
-          "yaw"
-        ]
-      }
+{
+  "title": "gimbalCommands",
+  "type": "object",
+  "properties": {
+    "droneId": {
+      "type": "string"
+    },
+    "pitch": {
+      "type": "number",
+      "example": 0,
+      "description": "delta pitch",
+      "minimum": -10,
+      "maximum": 10
+    },
+    "yaw": {
+      "type": "number",
+      "minimum": -10,
+      "maximum": 10,
+      "description": "delta yaw"
+    },
+    "requestorID": {
+      "type": "string",
+      "description": "The ID of the requestor want to control the gimbal (QUESTION : Who is requestor ? Is it a particular FR or the OSCC ? In that case, why do we need to know the requestor in this command ?)"
+    }
+  },
+  "required": [
+    "droneId",
+    "pitch",
+    "yaw"
+  ]
+}

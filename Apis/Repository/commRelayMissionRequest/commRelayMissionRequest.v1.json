@@ -65,7 +65,7 @@
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+                      "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequest.v1.json"
                     }
                   ]
                 }
@@ -124,7 +124,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequest.v1.json"
               }
             }
           },
@@ -153,7 +153,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelyMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/Comm Relay Mission Request/repCommRelayMissionRequest.v1.json"
               }
             }
           }

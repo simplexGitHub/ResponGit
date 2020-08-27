@@ -3,7 +3,8 @@
   "info": {
     "title": "setRequest",
     "version": "1.0",
-    "description": "Set request for Alpha mission"
+    "description": "Set request for Alpha mission",
+    "contact": {}
   },
   "servers": [
     {

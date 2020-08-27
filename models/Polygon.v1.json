@@ -5,7 +5,7 @@
     "example-1": {}
   },
   "properties": {
-    "coordinats": {
+    "coordinates": {
       "type": "array",
       "minItems": 3,
       "items": {
@@ -14,6 +14,6 @@
     }
   },
   "required": [
-    "coordinats"
+    "coordinates"
   ]
 }

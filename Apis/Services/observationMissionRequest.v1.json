@@ -3,7 +3,8 @@
   "info": {
     "title": "observationMissionRequest",
     "version": "1.0",
-    "description": "Rquest for Observation Mission"
+    "description": "Request for Observation Mission",
+    "contact": {}
   },
   "servers": [
     {

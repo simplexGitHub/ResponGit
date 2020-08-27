@@ -16,7 +16,14 @@
         "operationId": "post-deleteScanMission",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
           },
           "": {
             "content": {
@@ -44,7 +51,7 @@
     },
     "/getLastScanMissionRequests/{currentVersion}": {
       "post": {
-        "summary": "",
+        "summary": "Get last scan mission requests",
         "operationId": "post-getLastScanMissionRequests",
         "responses": {
           "200": {
@@ -78,7 +85,8 @@
                       "$ref": "../../../models/Repository Ent/Scan Mission Request/repScanMissionRequests.v1.json"
                     }
                   ]
-                }
+                },
+                "examples": {}
               }
             }
           }
@@ -98,7 +106,7 @@
     },
     "/insertNewScanMissionRequest": {
       "post": {
-        "summary": "",
+        "summary": "Insert new scan mission request",
         "operationId": "post-insertNewScanMissionRequest",
         "responses": {
           "200": {
@@ -127,7 +135,7 @@
     },
     "/updateScanMissionRequest": {
       "post": {
-        "summary": "",
+        "summary": "Update scan mission request",
         "operationId": "post-updateScanMissionRequest",
         "responses": {
           "200": {

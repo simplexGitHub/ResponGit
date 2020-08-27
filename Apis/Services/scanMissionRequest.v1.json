@@ -2,7 +2,9 @@
   "openapi": "3.0.0",
   "info": {
     "title": "scanMissionRequest",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "Request for FollowPath Mission",
+    "contact": {}
   },
   "servers": [
     {
@@ -31,7 +33,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../models/Repository Ent/Scan Mission Request/repScanMissionRequest.v1.json"
+                "$ref": "../../models/Services Ent/requestScanMission.v1.json"
               }
             }
           },

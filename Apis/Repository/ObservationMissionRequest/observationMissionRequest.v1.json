@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "observationPointMissionRequest",
+    "title": "observationMissionRequest",
     "version": "1.0"
   },
   "servers": [
@@ -12,11 +12,18 @@
   "paths": {
     "/deleteObservationMissionRequest/{id}": {
       "post": {
-        "summary": "Delete Observation Point Mission Request",
+        "summary": "Delete Observation Mission Request",
         "operationId": "post-deleteObservationMissionRequest",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../../../models/repEntGenResponse.v1.json"
+                }
+              }
+            }
           },
           "": {
             "description": "",
@@ -41,7 +48,7 @@
         }
       ]
     },
-    "/getLastObservationPointMissionRequests/{currentCollectionVersion}": {
+    "/getLastObservationMissionRequests/{currentCollectionVersion}": {
       "parameters": [
         {
           "schema": {
@@ -54,8 +61,8 @@
         }
       ],
       "post": {
-        "summary": "getLastObservationPointMissionRequests",
-        "operationId": "post-getLastObservationPointMissionRequests-currentCollectionVersion",
+        "summary": "getLastObservationMissionRequests",
+        "operationId": "post-getLastObservationMissionRequests-currentCollectionVersion",
         "responses": {
           "200": {
             "description": "OK",
@@ -68,7 +75,7 @@
                       "$ref": "../../../models/repCollectionGenResponse.v1.json"
                     },
                     {
-                      "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationPointMissionRequests.v1.json"
+                      "$ref": "../../../models/Repository Ent/Observation Mission Request/repObservationMissionRequests.v1.json"
                     }
                   ]
                 }
@@ -101,17 +108,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/Observation Mission Request/repObservationMissionRequest.v1.json"
               }
             }
           }
         }
       }
     },
-    "/updateObservationPointMission": {
+    "/updateObservationMission": {
       "post": {
-        "summary": "updateObservationPointMission",
-        "operationId": "post-updateObservationPointMission",
+        "summary": "updateObservationMission",
+        "operationId": "post-updateObservationMission",
         "responses": {
           "200": {
             "description": "OK",
@@ -124,12 +131,12 @@
             }
           }
         },
-        "description": "Update a specific observation point request",
+        "description": "Update a specific observation request",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/Observation Point Mission Request/repObservationMissionRequest.v1.json"
+                "$ref": "../../../models/Repository Ent/Observation Mission Request/repObservationMissionRequest.v1.json"
               }
             }
           },

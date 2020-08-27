@@ -1,7 +1,7 @@
 {
-  "title": "requestPatrolMission",
+  "title": "requestFollowPathMission",
   "type": "object",
-  "description": "Request for Observation Mission done by camera sensors",
+  "description": "Request for FollowPath Mission done by camera sensors",
   "properties": {
     "droneId": {
       "type": "string",

@@ -1,0 +1,16 @@
+{
+  "title": "repObservationMissionRequests",
+  "type": "object",
+  "description": "Array of Observation Mission Requests",
+  "properties": {
+    "observationMissionRequests": {
+      "type": "array",
+      "items": {
+        "$ref": "./repObservationMissionRequest.v1.json"
+      }
+    }
+  },
+  "required": [
+    "observationMissionRequests"
+  ]
+}
