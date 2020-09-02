@@ -13,6 +13,15 @@
     },
     "observationMissionRequest": {
       "$ref": "../../Services Ent/requestObservationMission.v1.json"
+    },
+    "lastAction": {
+      "type": "string",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ],
+      "description": "Last action on entity"
     }
   },
   "required": [

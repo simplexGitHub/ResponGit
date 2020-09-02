@@ -12,6 +12,15 @@
     },
     "followPathMissionRequest": {
       "$ref": "../../Services Ent/requestFollowPathMission.v1.json"
+    },
+    "lastAction": {
+      "type": "string",
+      "description": "Last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
     }
   },
   "required": [

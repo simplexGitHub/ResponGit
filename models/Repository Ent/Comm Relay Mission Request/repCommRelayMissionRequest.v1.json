@@ -14,13 +14,19 @@
     "commRelayMissionRequest": {
       "$ref": "../../Services Ent/requestCommRelayMission.v1.json"
     },
-    "deleted": {
-      "type": "boolean",
-      "description": "Indicate that the entity was deleted.\nUse only for requets. Not relevant on insert, update and delete"
+    "lastAction": {
+      "type": "string",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ],
+      "description": "Last action on entity"
     }
   },
   "required": [
     "id",
-    "version"
+    "version",
+    "commRelayMissionRequest"
   ]
 }

@@ -39,6 +39,19 @@
         "Active",
         "NotActive"
       ]
+    },
+    "lastAction": {
+      "type": "string",
+      "description": "Last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
+    },
+    "version": {
+      "type": "number",
+      "description": "The entity version in repository"
     }
   },
   "required": [

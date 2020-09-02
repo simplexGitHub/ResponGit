@@ -41,11 +41,26 @@
         "Media",
         "Collaboration"
       ]
+    },
+    "lastAction": {
+      "type": "string",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ],
+      "description": "Last action on entity"
+    },
+    "version": {
+      "type": "number",
+      "description": "The entity version. -1 if new"
     }
   },
   "required": [
     "id",
     "name",
+    "ip",
+    "port",
     "status",
     "system"
   ]

@@ -47,6 +47,19 @@
     "description": {
       "type": "string",
       "description": "Free text description about the Mission"
+    },
+    "lastAction": {
+      "type": "string",
+      "description": "Last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
+    },
+    "version": {
+      "type": "number",
+      "description": "The entity version in repository"
     }
   },
   "required": [

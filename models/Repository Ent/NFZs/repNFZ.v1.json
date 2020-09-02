@@ -20,6 +20,19 @@
     "maxAlt": {
       "type": "number",
       "description": "Max alt in meters ASL.\nIf not sent - no max altitude"
+    },
+    "lastAction": {
+      "type": "string",
+      "description": "last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
+    },
+    "version": {
+      "type": "number",
+      "description": "The entity version in repository"
     }
   },
   "required": [
