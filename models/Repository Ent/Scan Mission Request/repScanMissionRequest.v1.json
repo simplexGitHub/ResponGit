@@ -12,6 +12,15 @@
     },
     "scanMissionRequest": {
       "$ref": "../../Services Ent/requestScanMission.v1.json"
+    },
+    "lastAction": {
+      "type": "string",
+      "description": "Last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
     }
   },
   "required": [

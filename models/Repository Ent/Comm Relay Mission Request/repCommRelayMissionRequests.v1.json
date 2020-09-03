@@ -8,5 +8,8 @@
         "$ref": "../../Services Ent/requestCommRelayMission.v1.json"
       }
     }
-  }
+  },
+  "required": [
+    "commRelayMissionRequests"
+  ]
 }

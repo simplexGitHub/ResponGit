@@ -1,16 +1,16 @@
 {
-    "title": "repObservationMissionRequests",
-    "type": "object",
-    "description": "Array of Observation Mission Requests",
-    "properties": {
-      "observationMissionRequests": {
-        "type": "array",
-        "items": {
-          "$ref": "./repServoingMissionRequest.v1.json"
-        }
+  "title": "repServoingMissionRequests",
+  "type": "object",
+  "description": "Array of Servoing Mission Requests",
+  "properties": {
+    "servoingMissionRequests": {
+      "type": "array",
+      "items": {
+        "$ref": "./repServoingMissionRequest.v1.json"
       }
-    },
-    "required": [
-      "observationMissionRequests"
-    ]
-  }
+    }
+  },
+  "required": [
+    "servoingMissionRequests"
+  ]
+}

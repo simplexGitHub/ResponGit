@@ -52,9 +52,18 @@
     "creationTime": {
       "$ref": "../../timestamp.v1.json"
     },
-    "deleted": {
-      "type": "boolean",
-      "description": "Used for requests to show that entity was deleted"
+    "lastAction": {
+      "type": "string",
+      "description": "Last action on entity",
+      "enum": [
+        "Insert",
+        "Update",
+        "Delete"
+      ]
+    },
+    "version": {
+      "type": "number",
+      "description": "The entity version in repository"
     }
   },
   "required": [
