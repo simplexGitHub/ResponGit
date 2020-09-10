@@ -95,7 +95,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/FollowPath Mission Request/repFollowPathMissionRequest.v1.json"
+                "$ref": "../../../models/Services Ent/requestFollowPathMission.v1.json"
               }
             }
           }
@@ -123,7 +123,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "../../../models/Repository Ent/FollowPath Mission Request/repFollowPathMissionRequest.v1.json"
+                "$ref": "../../../models/Services Ent/requestFollowPathMission.v1.json"
               }
             },
             "application/xml": {

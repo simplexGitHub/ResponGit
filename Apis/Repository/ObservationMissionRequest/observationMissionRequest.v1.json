@@ -48,13 +48,13 @@
         }
       ]
     },
-    "/getLastObservationMissionRequests/{currentVersion}": {
+    "/getLastObservationMissionRequests/{currentCollectionVersion}": {
       "parameters": [
         {
           "schema": {
             "type": "integer"
           },
-          "name": "currentVersion",
+          "name": "currentCollectionVersion",
           "in": "path",
           "required": true,
           "description": "The requestor last updated version"
@@ -62,7 +62,7 @@
       ],
       "post": {
         "summary": "getLastObservationMissionRequests",
-        "operationId": "post-getLastObservationMissionRequests-currentVersion",
+        "operationId": "post-getLastObservationMissionRequests-currentCollectionVersion",
         "responses": {
           "200": {
             "description": "OK",
