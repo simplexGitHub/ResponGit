@@ -6,9 +6,6 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
-    },
-    {
       "description": "",
       "url": "http://141.226.94.241:4605"
     }
