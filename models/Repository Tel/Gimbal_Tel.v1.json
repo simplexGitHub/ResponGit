@@ -22,25 +22,14 @@
       ],
       "description": "The visual analytics algorithms running for a drone"
     },
-    "pitch": {
-      "type": "number",
-      "description": "Gimbal pitch angle"
+    "gimbalParameters": {
+      "$ref": "../gimbalParameters.v1.json"
     },
-    "yaw": {
-      "type": "number",
-      "description": "The gimbal yaw angle"
+    "visibleCameraParameters": {
+      "$ref": "../visibleCameraParameters.v1.json"
     },
-    "roll": {
-      "type": "number",
-      "description": "The gimbal roll angle"
-    },
-    "opticalCameraZoom": {
-      "type": "number",
-      "description": "The current optical camera zoom percentage"
-    },
-    "infraredCameraZoom": {
-      "type": "number",
-      "description": "The current infrared camera zoom percentage"
+    "infraredCameraParameters": {
+      "$ref": "../infraredCameraParameters.v1.json"
     },
     "trackedEntity": {
       "type": "number",
@@ -61,8 +50,8 @@
   "required": [
     "id",
     "droneId",
-    "pitch",
-    "yaw",
-    "roll"
+    "gimbalParameters",
+    "visibleCameraParameters",
+    "infraredCameraParameters"
   ]
 }
