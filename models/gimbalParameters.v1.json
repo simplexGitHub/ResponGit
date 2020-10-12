@@ -1,0 +1,22 @@
+{
+  "title": "gimbalParameters.v1",
+  "type": "object",
+  "properties": {
+    "pitch": {
+      "type": "number",
+      "minimum": -10,
+      "maximum": 10,
+      "description": "Delta pitch"
+    },
+    "yaw": {
+      "type": "number",
+      "minimum": -10,
+      "maximum": 10,
+      "description": "Delta yaw"
+    }
+  },
+  "required": [
+    "pitch",
+    "yaw"
+  ]
+}

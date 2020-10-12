@@ -1,0 +1,30 @@
+{
+  "title": "infraredCameraParameters.v1",
+  "type": "object",
+  "properties": {
+    "zoomInfraredCamera": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "colorPalettInfraredCamera": {
+      "type": "string",
+      "enum": [
+        "WhiteHot",
+        "BlackHot",
+        "Rainbow",
+        "RainHC",
+        "IronBow",
+        "Lava",
+        "Arctic",
+        "GlowBow",
+        "GrradedFire",
+        "Hottest"
+      ]
+    }
+  },
+  "required": [
+    "zoomInfraredCamera",
+    "colorPalettInfraredCamera"
+  ]
+}
