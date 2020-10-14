@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-10-14T14:38:54.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="NPc4l-4bz9XsLZEDmRu_" version="13.7.9" type="device">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="2370" dy="1360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c-ducmVm1BfJofLREaLg-1" value="act" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="240" width="1240" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="WFE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-43" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TMM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-39" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-12" value="INESC TEC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-1" value="Thales Ground&#xa;Station" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-3" value="ObservationMissionRequest&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="80" width="160" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-3" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="671" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-8" value="Mission&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="80" width="160" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-8" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="671" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-10" value="MissionRoute&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="80" width="160" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-10" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="671" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Generic mission - Validation - Sequence diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="40" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3b8xx8UhGrSKdxk3lIoZ-4" value="getLastMissionRequest(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-43" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint" />
+            <mxPoint x="950" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3b8xx8UhGrSKdxk3lIoZ-5" value="getLastMission(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-43" target="kFD2dIQjI39uIgjiK80y-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="184" as="sourcePoint" />
+            <mxPoint x="1099.6" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3b8xx8UhGrSKdxk3lIoZ-6" value="getLastMissionRoute(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.106;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-43" target="kFD2dIQjI39uIgjiK80y-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="218" as="sourcePoint" />
+            <mxPoint x="1275.1399999999996" y="1230.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-3" value="[User refuses mission]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="125" y="270" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-4" value="update[type]MissionRequest(Cancelled)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.249;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-43" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="310" as="sourcePoint" />
+            <mxPoint x="905" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-6" value="Return repEntGenResponse(success + description)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;dashed=1;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="TqzVzZ9uqok_i1BsD-UU-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="339.99999999999994" as="sourcePoint" />
+            <mxPoint x="940" y="339.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-7" value="updateMission(Cancelled)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.396;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-39" target="kFD2dIQjI39uIgjiK80y-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="369.99999999999994" as="sourcePoint" />
+            <mxPoint x="1130" y="369.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-8" value="getLastMissionRequest(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="c-ducmVm1BfJofLREaLg-17" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="1085" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-9" value="Return rep[Type]MissionRequest()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;dashed=1;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="TqzVzZ9uqok_i1BsD-UU-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="340.90599999999995" as="sourcePoint" />
+            <mxPoint x="185" y="340.90599999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-10" value="updateMissionRoute(Not_active)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-39" target="kFD2dIQjI39uIgjiK80y-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="459.99999999999994" as="sourcePoint" />
+            <mxPoint x="1130" y="459.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-11" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="1240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-12" value="[User accepts mission]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="500" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-13" value="update[type]MissionRequest(InProgress)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-43" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="529.9999999999999" as="sourcePoint" />
+            <mxPoint x="940" y="529.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-14" value="Return repEntGenResponse(success + description)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=-0.2;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;dashed=1;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="TqzVzZ9uqok_i1BsD-UU-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="559.996" as="sourcePoint" />
+            <mxPoint x="210" y="559.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-15" value="getLastMissionRequest(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.661;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-39" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="950" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="140" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-18" value="getLastMissionRequest(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-39" target="c-ducmVm1BfJofLREaLg-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="357.75" as="sourcePoint" />
+            <mxPoint x="915" y="357.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-19" value="getLastMissionRequest(currentVersion)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="c-ducmVm1BfJofLREaLg-16" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="619.9999999999999" as="sourcePoint" />
+            <mxPoint x="1130" y="619.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-20" value="Return rep[Type]MissionRequest()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.697;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;dashed=1;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="c-ducmVm1BfJofLREaLg-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="650.0020000000001" as="sourcePoint" />
+            <mxPoint x="425" y="650.0020000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-21" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="600" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-22" value="Return rep[Type]MissionRequest()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;dashed=1;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="c-ducmVm1BfJofLREaLg-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="669.9969999999998" as="sourcePoint" />
+            <mxPoint x="390" y="669.9969999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ducmVm1BfJofLREaLg-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="660" width="10" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
