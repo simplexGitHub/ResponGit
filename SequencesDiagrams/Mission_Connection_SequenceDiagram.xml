@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-10-22T17:33:11.205Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="xQx1x9UvuO2U-WOXDO4L" version="13.7.9" type="device">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1422" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="WFE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TMM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="310" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-12" value="INESC TEC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="310" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TqzVzZ9uqok_i1BsD-UU-12" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-1" value="Thales Ground&#xa;Station" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="310" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Connection - Sequence diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="270" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-1" value="Drone&#xa;Telemetry" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="310" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KF6xK53ql9N6qv5E3l8t-1" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-3" value="Gimbal&#xa;Telemetry" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="310" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KF6xK53ql9N6qv5E3l8t-3" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-3" value="Start PublishDroneTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="KF6xK53ql9N6qv5E3l8t-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="460.0000000000001" as="sourcePoint" />
+            <mxPoint x="440" y="460.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-5" value="Start PublishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.412;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kFD2dIQjI39uIgjiK80y-2" target="KF6xK53ql9N6qv5E3l8t-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="670" as="sourcePoint" />
+            <mxPoint x="1065" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-6" value="Drone1 connected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-7" value="Gimbal1 connected&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;Array contains telemetry for Gimbal1&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="507" width="130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-9" value="Frequency : &amp;gt;5Hz" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-10" value="Start PublishCommRelayTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.917;exitY=0.256;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TqzVzZ9uqok_i1BsD-UU-13" target="PR-ShRS0LsG4J_lrSuka-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="423.198" as="sourcePoint" />
+            <mxPoint x="1150" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-11" value="CommRelay&#xa;Telemetry" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="310" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="PR-ShRS0LsG4J_lrSuka-11">
+          <mxGeometry x="75" y="59" width="10" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=file:///home/remi/Pictures/Screenshot%20from%202020-10-22%2017-30-53.png;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="281" width="520" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=file:///home/remi/Pictures/Screenshot%20from%202020-10-22%2017-31-05.png;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="710" width="520" height="303" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-22" value="&lt;b&gt;&lt;u&gt;Rules for Telemetry repositories from deliverable 3.3&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2525" y="240" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-23" value="&lt;b&gt;&lt;u&gt;Message structure sent for Drone and Gimbal telemetry&lt;br&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="240" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=file:///home/remi/Pictures/Screenshot%20from%202020-10-22%2017-36-57.png;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="281" width="520" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=file:///home/remi/Pictures/Screenshot%20from%202020-10-22%2017-37-09.png;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="281" width="520" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-27" value="For the demo, we suppose that payload configuration is static. Consequently, we have a file which tells which payload is on which drone.&lt;br&gt;Example :&lt;br&gt;Drone1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Gimbal1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;DropSystem1&lt;br&gt;Drone2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CommRelay1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;DropSystem2&lt;br&gt;Drone3&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Gimbal2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CommRelay2&lt;br&gt;&lt;br&gt;WFE knows that the drone1 is connected when it receives telemetry of Drone1.&lt;br&gt;WFE knows that the drone1 can use the VisionAnalytics related missions when it receives telemetry of Gimbal1." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="750" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-28" value="Gimbal2 disconnected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="756" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-29" value="Stop PublishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.927;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kFD2dIQjI39uIgjiK80y-2" target="KF6xK53ql9N6qv5E3l8t-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="695.999" as="sourcePoint" />
+            <mxPoint x="1090" y="695.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-30" value="Drone2 disconnected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="795" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-31" value="Stop PublishDroneTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="KF6xK53ql9N6qv5E3l8t-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="829.9999999999999" as="sourcePoint" />
+            <mxPoint x="880" y="829.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-32" value="CommRelay1 connected&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 153 , 0)&quot;&gt;Array contains telemetry for CommRelay1&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-36" value="&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;To be discussed :&lt;br&gt;- Dont think that videoURLs is relevant to be in telemetry as it will be constants&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;==&amp;gt; Do it in configuration file or with a http request like gimbal commands&lt;br&gt;&lt;br&gt;- As we send all data for all gimbal at each time, if a gimbal disconnects when another&lt;br&gt;&amp;nbsp; is still running we don&#39;t continue to send data for it. Consequently, there will not&amp;nbsp;&lt;br&gt;&amp;nbsp; be information from when a gimbal is disconnected.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="680" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-38" value="Gimbal1 disconnected&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;Array contains only telemetry for Gimbal 2&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-39" value="Gimbal2 connected&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;Array contains telemetry for both gimbal 1 and 2&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-40" value="Drone2 connected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-41" value="Drone1 disconnected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="770" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-42" value="Drone1 OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-43" value="Drone2 OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-44" value="CommRelay1 of Drone2 OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-45" value="Gimbal1 of Drone1 OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="507" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-46" value="Gimbal2 of Drone3 OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-47" value="Gimbal1 of Drone1 NOT OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="666" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-48" value="Gimbal2 of Drone3 NOT OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="756" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-49" value="Drone 1 and 2 NOT OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="795" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-50" value="&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;To be discussed :&lt;br&gt;- Think it should be the same behaviour as for gimbal telemetry (so lastUpdateTimeFromDrone&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;useless)&lt;br&gt;&lt;br&gt;- Capability variable nnot useful if we use telemetry to know which payload is connected&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="790" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-52" value="CommRelay1 disconnected" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-53" value="Stop PublishCommRelayTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.986;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TqzVzZ9uqok_i1BsD-UU-13" target="PR-ShRS0LsG4J_lrSuka-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="756.0019999999998" as="sourcePoint" />
+            <mxPoint x="1289.9999999999995" y="756.0019999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR-ShRS0LsG4J_lrSuka-54" value="CommRelay1 of Drone2 NOT OK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="720" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
