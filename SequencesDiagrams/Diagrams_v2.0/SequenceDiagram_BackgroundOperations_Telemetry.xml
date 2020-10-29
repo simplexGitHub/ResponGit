@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-10-29T14:57:13.366Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="giYZ1D7GzrGiX6caV4pb" version="13.7.9" type="device">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1422" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-27" value="Telemetry with and without sending messages" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=80;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="1280" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-16" value="Loop 1s" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-10" value="Loop 1s" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="WFE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-18" value="Loop 1s" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=20;strokeWidth=2;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="-20" y="450" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TMM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-12" value="INESC TEC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TqzVzZ9uqok_i1BsD-UU-12" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="481" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-1" value="Thales Ground&#xa;Station" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="481" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Telemetry - Detailed sequence diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="30" width="430" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-3" value="Gimbal&#xa;Telemetry&#xa;Sender" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KF6xK53ql9N6qv5E3l8t-3" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-7" value="FR&#xa;apps" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KF6xK53ql9N6qv5E3l8t-7" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="481" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-2" value="Gimbal&#xa;Telemetry&#xa;Receiver" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="z5-KV701AqkQQ7ba_uoK-2" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-4" value="Receiver and Sender are websocket servers. The denomination has to be understand from IAI side (Receiver receives the telemetry, Sender sends the telemetry to the partner who wants telemetry information). For example, TMM sends telemetry to Receiver and get telemetry from Sender." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="640" y="10" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-5" value="Drone&#xa;Telemetry&#xa;Receiver" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="z5-KV701AqkQQ7ba_uoK-5" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-7" value="Drone&#xa;Telemetry&#xa;Sender" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="z5-KV701AqkQQ7ba_uoK-7" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-9" value="FRs&#xa;Telemetry&#xa;Receiver" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="z5-KV701AqkQQ7ba_uoK-9" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-11" value="FRs&#xa;Telemetry&#xa;Sender" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="80" width="70" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z5-KV701AqkQQ7ba_uoK-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="z5-KV701AqkQQ7ba_uoK-11" vertex="1">
+          <mxGeometry x="30" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-3" value="" style="endArrow=none;dashed=1;html=1;entryX=1.002;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TqzVzZ9uqok_i1BsD-UU-27" target="TqzVzZ9uqok_i1BsD-UU-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="1391.6666666666667" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqzVzZ9uqok_i1BsD-UU-11" value="publishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.267;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z5-KV701AqkQQ7ba_uoK-8" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="554" as="sourcePoint" />
+            <mxPoint x="185" y="383.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-7" value="A gimbal telemetry message is already in websocket server. Could be a telemetry from yesterday." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-8" value="A gimbal telemetry message is already in websocket server. Could be a telemetry from yesterday." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-11" value="Frequency is configurable" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="90" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-14" value="Publish last gimbal telemetry message received" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="420" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KF6xK53ql9N6qv5E3l8t-10" value="PublishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.747;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-2" target="z5-KV701AqkQQ7ba_uoK-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="539.9970000000001" as="sourcePoint" />
+            <mxPoint x="2175" y="558.8810000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-15" value="Transmit to &#xa;Sender server" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.778;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z5-KV701AqkQQ7ba_uoK-3" target="z5-KV701AqkQQ7ba_uoK-8" edge="1">
+          <mxGeometry y="32" relative="1" as="geometry">
+            <mxPoint x="445" y="460.2070000000001" as="sourcePoint" />
+            <mxPoint x="860" y="460.2070000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-17" value="publishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.682;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z5-KV701AqkQQ7ba_uoK-8" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="428.15999999999997" as="sourcePoint" />
+            <mxPoint x="285" y="428.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4tRmu9mqsOOBBf1pB1w-19" value="publishGimbalTelemetry" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.167;exitY=0.885;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z5-KV701AqkQQ7ba_uoK-8" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="558.16" as="sourcePoint" />
+            <mxPoint x="285" y="558.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
