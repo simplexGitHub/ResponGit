@@ -25,6 +25,6 @@
   },
   "required": [
     "zoomInfraredCamera",
-    "colorPalettInfraredCamera"
+    "colorPaletteInfraredCamera"
   ]
 }
