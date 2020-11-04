@@ -1,0 +1,19 @@
+{
+  "title": "generalMissionResponse",
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
+        "entityId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "entityId"
+      ]
+    },
+    {
+      "$ref": "./generalResponse.v1.json"
+    }
+  ]
+}

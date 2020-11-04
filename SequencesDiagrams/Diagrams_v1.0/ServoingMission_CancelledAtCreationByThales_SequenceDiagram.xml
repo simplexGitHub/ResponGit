@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-10-09T12:21:32.289Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="VLaAaxct8YTss1S0wsHz" version="13.7.9" type="device">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="572" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cztqP8f-K66gsIXbUHxo-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Servoing mission - Cancelled at creation ThalesGroundStation Sequence diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="80" width="890" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-27" value="WFE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="110" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="j9WGiY_4kEDtXnzrvmeG-27" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-30" value="TMM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="110" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="j9WGiY_4kEDtXnzrvmeG-30" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-34" value="Thales Ground&#xa;Station" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="110" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-35" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="j9WGiY_4kEDtXnzrvmeG-34" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-36" value="Not finding target in image" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="j9WGiY_4kEDtXnzrvmeG-34" vertex="1">
+          <mxGeometry x="50" y="110" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-37" value="ServoingMissionRequest&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="110" width="160" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-38" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="j9WGiY_4kEDtXnzrvmeG-37" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-43" value="Send ServoingMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="j9WGiY_4kEDtXnzrvmeG-28" target="j9WGiY_4kEDtXnzrvmeG-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="260" as="sourcePoint" />
+            <mxPoint x="1310" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-44" value="insertNewServoingMissionRequest(Cancelled) [Add a description of cancellation reason]" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontColor=#FF0000;exitX=1.003;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="j9WGiY_4kEDtXnzrvmeG-36" target="j9WGiY_4kEDtXnzrvmeG-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150.33" y="280" as="sourcePoint" />
+            <mxPoint x="1315" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9WGiY_4kEDtXnzrvmeG-48" value="getLastObservationMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.99;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="j9WGiY_4kEDtXnzrvmeG-38" target="j9WGiY_4kEDtXnzrvmeG-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1497.5" y="320" as="sourcePoint" />
+            <mxPoint x="960" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

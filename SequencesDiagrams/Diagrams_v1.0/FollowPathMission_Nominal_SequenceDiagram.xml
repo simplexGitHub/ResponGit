@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-10-09T12:18:16.208Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="S_LECJSHwx0mxEhe6IY9" version="13.7.9" type="device">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1422" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="WFE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-2" value="User accept the mission" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="50" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TMM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-5" value="Determine mission request, mission and mission route" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="50" y="160" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-11" value="Going to observation points" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="50" y="500" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-1" value="Thales Ground&#xa;Station" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="45" y="59" width="10" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-6" value="Determine favorites observation points and limits" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="50" y="110" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-7" value="Observing point" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="kFD2dIQjI39uIgjiK80y-1" vertex="1">
+          <mxGeometry x="50" y="530" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-3" value="FollowPathMissionRequest&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-3" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-8" value="Mission&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="80" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-8" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-10" value="MissionRoute&#xa;repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="80" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="kFD2dIQjI39uIgjiK80y-10" vertex="1">
+          <mxGeometry x="75" y="59" width="10" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Send FollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.057;exitY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="167" as="sourcePoint" />
+            <mxPoint x="340" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-12" value="GetLastFollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.112;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="cztqP8f-K66gsIXbUHxo-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="177.12099999999998" as="sourcePoint" />
+            <mxPoint x="530" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-13" value="Forward FollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.04;exitY=0.072;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="cztqP8f-K66gsIXbUHxo-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="229.99999999999997" as="sourcePoint" />
+            <mxPoint x="530" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-14" value="Return FollowPathMissionPlan" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;exitX=0.002;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cztqP8f-K66gsIXbUHxo-6" target="cztqP8f-K66gsIXbUHxo-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="219.74599999999998" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-15" value="insertNewFollowPathMissionRequest(Pending)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.947;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cztqP8f-K66gsIXbUHxo-5" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370.3299999999999" y="249.99999999999997" as="sourcePoint" />
+            <mxPoint x="535" y="249.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-16" value="getLastFollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.167;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="cztqP8f-K66gsIXbUHxo-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="258.71799999999996" as="sourcePoint" />
+            <mxPoint x="745.5699999999999" y="258.71799999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-17" value="insertNewMission(Pending)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.917;exitY=0.257;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="kFD2dIQjI39uIgjiK80y-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="279.99799999999993" as="sourcePoint" />
+            <mxPoint x="750.5699999999999" y="279.99799999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFD2dIQjI39uIgjiK80y-18" value="insertNewMissionRoute(active / Not active ?)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF0000;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="kFD2dIQjI39uIgjiK80y-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.0000000000001" y="270" as="sourcePoint" />
+            <mxPoint x="981.14" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNSTBzR4TulUq5Iqih7E-1" value="updateFollowPathMissionRequest(InProgress)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.917;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cztqP8f-K66gsIXbUHxo-2" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.32999999999993" y="350.0000000000001" as="sourcePoint" />
+            <mxPoint x="350" y="350.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-3" value="getLastMission" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.083;exitY=0.434;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-9" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="807.9100000000002" y="329.998" as="sourcePoint" />
+            <mxPoint x="252.07999999999998" y="329.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-4" value="getLastMissionRoute" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=-0.083;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-11" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="986.6700000000001" y="331.5559999999999" as="sourcePoint" />
+            <mxPoint x="185" y="331.5559999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-10" value="GetLastFollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="cztqP8f-K66gsIXbUHxo-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="550" as="sourcePoint" />
+            <mxPoint x="490" y="570.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-12" value="updateFollowPathMissionRequest(Cancelled)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.782;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="kFD2dIQjI39uIgjiK80y-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.17000000000007" y="770" as="sourcePoint" />
+            <mxPoint x="745" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-13" value="GetLastFollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="cztqP8f-K66gsIXbUHxo-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="770" as="sourcePoint" />
+            <mxPoint x="540" y="770.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-14" value="GetLastFollowPathMissionRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kFD2dIQjI39uIgjiK80y-4" target="cztqP8f-K66gsIXbUHxo-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="800" as="sourcePoint" />
+            <mxPoint x="420" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Follow path mission - Nominal Sequence diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="40" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-16" value="updateFollowPathMission(InProgress) [IAI or TMM ?]" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.259;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF0000;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="kFD2dIQjI39uIgjiK80y-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.00000000000006" y="530" as="sourcePoint" />
+            <mxPoint x="765.83" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cztqP8f-K66gsIXbUHxo-17" value="updateFollowPathMissionRoute(Active) [IAI or TMM ?]" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.141;exitY=0.59;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF0000;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="kFD2dIQjI39uIgjiK80y-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.99999999999991" y="549.0000000000001" as="sourcePoint" />
+            <mxPoint x="997.4099999999995" y="549.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
