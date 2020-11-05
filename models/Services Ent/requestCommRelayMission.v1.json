@@ -16,20 +16,27 @@
       ]
     },
     "missionData": {
+      "description": "area - incase type is area\nFRs - in case type is dynamic",
       "oneOf": [
         {
           "properties": {
             "point": {
               "$ref": "../GeoPoint.v1.json"
             }
-          }
+          },
+          "required": [
+            "point"
+          ]
         },
         {
           "properties": {
             "area": {
               "$ref": "../Polygon.v1.json"
             }
-          }
+          },
+          "required": [
+            "area"
+          ]
         },
         {
           "properties": {
@@ -46,7 +53,6 @@
           ]
         }
       ],
-      "description": "area - incase type is area\nFRs - in case type is dynamic",
       "type": "object"
     },
     "status": {
