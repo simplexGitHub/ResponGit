@@ -8,26 +8,41 @@
     },
     "commRelayType": {
       "type": "string",
+      "description": "Type of comm relay fixed or dynamic\nDynamic - folow FRs\nArea - Cover area",
       "enum": [
+        "Fixed",
         "Area",
-        "Dynamic"
-      ],
-      "description": "Type of comm relay fixed or dynamic\nDynamic - folow FRs\nArea - Cover area"
+        "Follow"
+      ]
     },
     "missionData": {
+      "description": "area - incase type is area\nFRs - in case type is dynamic",
       "oneOf": [
+        {
+          "properties": {
+            "point": {
+              "$ref": "../GeoPoint.v1.json"
+            }
+          },
+          "required": [
+            "point"
+          ]
+        },
         {
           "properties": {
             "area": {
               "$ref": "../Polygon.v1.json"
             }
-          }
+          },
+          "required": [
+            "area"
+          ]
         },
         {
           "properties": {
             "FRs": {
               "type": "array",
-              "description": "Array of RF IDs to track",
+              "description": "Array of FR IDs to track",
               "items": {
                 "type": "string"
               }
@@ -38,7 +53,6 @@
           ]
         }
       ],
-      "description": "area - incase type is area\nFRs - in case type is dynamic",
       "type": "object"
     },
     "status": {

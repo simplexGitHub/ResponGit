@@ -1,12 +1,31 @@
 {
-    "title": "requestServoingMission",
-    "type": "object",
-    "properties": {
-      "droneId": {
-        "type": "string"
-      },
-      "targetId": {
-        "type": "number"
-      }
+  "title": "requestServoingMission",
+  "type": "object",
+  "properties": {
+    "droneId": {
+      "type": "string"
+    },
+    "targetId": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "targetType": {
+      "type": "string",
+      "enum": [
+        "FR",
+        "VideoTarget"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "InProgress",
+        "Completed",
+        "Cancelled"
+      ]
     }
   }
+}

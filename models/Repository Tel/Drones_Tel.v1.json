@@ -13,5 +13,9 @@
         "$ref": "./Drone_Tel.v1.json"
       }
     }
-  }
+  },
+  "required": [
+    "timestamp",
+    "drones"
+  ]
 }
