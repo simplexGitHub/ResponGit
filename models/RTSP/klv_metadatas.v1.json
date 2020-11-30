@@ -1,0 +1,55 @@
+{
+  "title": "klv_metadatas",
+  "type": "object",
+  "x-examples": {},
+  "properties": {
+    "time": {
+      "type": "string"
+    },
+    "unixtimestamp": {
+      "type": "string"
+    },
+    "bb": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trackId": {
+            "type": "string"
+          },
+          "trackBB": {
+            "type": "object",
+            "properties": {
+              "xMin": {
+                "type": "number"
+              },
+              "yMin": {
+                "type": "number"
+              },
+              "xMax": {
+                "type": "number"
+              },
+              "yMax": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "droneGPS": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lon": {
+          "type": "number"
+        },
+        "alt": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
