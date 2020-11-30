@@ -6,10 +6,7 @@
       "type": "string"
     },
     "targetId": {
-      "type": [
-        "string",
-        "number"
-      ]
+      "type": "string"
     },
     "targetType": {
       "type": "string",
