@@ -157,14 +157,15 @@
         "Default"
       ]
     },
-    "Type": {
+    "type": {
       "type": "string",
       "enum": [
         "FireLine",
         "Person",
         "Vehicle",
         "NetworkCoverage",
-        "General"
+        "General",
+        "Building"
       ]
     },
     "creationTime": {
@@ -185,6 +186,20 @@
     "version": {
       "type": "number",
       "description": "The entity version in repository"
+    },
+    "metadata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [

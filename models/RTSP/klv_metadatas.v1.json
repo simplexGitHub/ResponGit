@@ -4,10 +4,10 @@
   "x-examples": {},
   "properties": {
     "time": {
-      "type": "string"
+      "type": "number"
     },
     "unixtimestamp": {
-      "type": "string"
+      "type": "number"
     },
     "bb": {
       "type": "array",
