@@ -164,8 +164,20 @@
         "Person",
         "Vehicle",
         "NetworkCoverage",
+        "Building",
         "General"
       ]
+    },
+    "metadata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": string,
+          "value": string
+        },
+        "required": ["name", "value"]
+      }
     },
     "creationTime": {
       "$ref": "../../timestamp.v1.json"
