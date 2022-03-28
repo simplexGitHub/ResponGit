@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:4606"
+      "url": "http://iai-resp-repository-integ.simplex-c2.com:4606"
     }
   ],
   "paths": {
